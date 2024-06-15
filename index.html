@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SB</title>
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+
     <!-- root element -->
     <root>
-        <button class="btn_update_masters">Update from master</button>
-        <button class="btn_refresh_servers">Refresh servers</button>
-        <div class="progress_Bar">
-            <p class="progress_bar_percentage">
-                <b class="progress_text"></b>
-            </p>
-        </div>
+      <button class="btn_update_masters">Update from master</button>
+      <button class="btn_refresh_servers">Refresh servers</button>
+
+      
+        <table class="table table-hover table-sm table-dark">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody class="appServerList"></tbody>
+        </table>
+
+      <div class="progress_Bar"><p class="progress_bar_percentage"><b class="progress_text"></b></p></div>
     </root>
+    <!-- end of root -->
+
     <!-- scripts included -->
     <script src="./renderer.js"></script>
-</body>
+  </body>
 </html>

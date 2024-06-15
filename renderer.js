@@ -9,13 +9,15 @@ const { log } = require('console')
 
 let progressBar = $('.progress_bar_percentage')
 
-let addZero = (i) => {
-    if (i < 10) {i = "0" + i}
-    return i
-}
+
 
 let updateFromMaster = () => {
-
+    // helper function for correct array rendering
+    let addZero = (i) => {
+        if (i < 10) {i = "0" + i}
+        return i
+    }
+    // UI stuff
     progressBar.show();
 
     const ls = spawn(`assets/qstat.exe`, ["-qwm", "master.quakeservers.net:27000", "-nh", "-ne", "-R", "-progress", "-u", "-sort", "n", "-json", "-of", `servers.json`])
@@ -33,6 +35,59 @@ let updateFromMaster = () => {
         let m = addZero(d.getMinutes())
         let resultInfo = `Last refresh: ${h}:${m}`
         $('.progress_text').html(resultInfo)
+        progressBar.fadeOut(500)
     })
 }
+
+let readServers = () => {
+    let rawdata = fs.readFileSync( `assets/servers.json` )
+    let serverList = JSON.parse(rawdata)
+    for (let s in serverList) {
+        if( serverList[s].ping >= 41 || serverList[s].map === undefined || serverList[s].map === "?" ) continue
+        else {
+
+            let oneServerPrepare =
+                `<tr href="${serverList[s].address}" data-name="${serverList[s].name}" data-ping="${serverList[s].ping}" data-playerno="${serverList[s].numplayers}">
+                    <th class="serverName"><a href="${serverList[s].address}">${serverList[s].name}</a></th>
+                    <th class="serverPing">${serverList[s].ping}</th>
+                    <th class="serverMap">${serverList[s].map}</th>
+                    <th class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</th>
+                </tr>`
+            $('.appServerList').append(oneServerPrepare)
+        }
+    }
+}
 $('.btn_update_masters').on('click', updateFromMaster)
+$('.btn_refresh_servers').on('click', readServers)
+
+{/* 
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+*/}
