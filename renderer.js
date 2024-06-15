@@ -18,7 +18,7 @@ let updateFromMaster = () => {
 
     progressBar.show();
 
-    const ls = spawn(`qstat.exe`, ["-qwm", "master.quakeservers.net:27000", "-nh", "-ne", "-R", "-progress", "-u", "-sort", "n", "-json", "-of", `servers.json`])
+    const ls = spawn(`assets/qstat.exe`, ["-qwm", "master.quakeservers.net:27000", "-nh", "-ne", "-R", "-progress", "-u", "-sort", "n", "-json", "-of", `servers.json`])
     ls.stderr.on('data', (data) => {
         let progress = data.toString()
         let bar = progress.substring(0, progress.indexOf(' ('))
