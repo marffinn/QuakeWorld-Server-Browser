@@ -20,7 +20,7 @@ let updateFromMaster = () => {
     // UI stuff
     progressBar.show();
 
-    const ls = spawn(`assets/qstat.exe`, ["-qwm", "master.quakeservers.net:27000", "-nh", "-ne", "-R", "-progress", "-u", "-sort", "n", "-json", "-of", `servers.json`])
+    const ls = spawn(`assets/qstat.exe`, ["-qwm", "master.quakeservers.net:27000", "-nh", "-ne", "-R", "-progress", "-u", "-sort", "n", "-json", "-of", `assets/servers.json`])
     ls.stderr.on('data', (data) => {
         let progress = data.toString()
         let bar = progress.substring(0, progress.indexOf(' ('))
@@ -35,7 +35,7 @@ let updateFromMaster = () => {
         let m = addZero(d.getMinutes())
         let resultInfo = `Last refresh: ${h}:${m}`
         $('.progress_text').html(resultInfo)
-        progressBar.fadeOut(500)
+        // progressBar.fadeOut(500)
     })
 }
 
@@ -59,35 +59,3 @@ let readServers = () => {
 }
 $('.btn_update_masters').on('click', updateFromMaster)
 $('.btn_refresh_servers').on('click', readServers)
-
-{/* 
-<table class="table table-hover table-dark">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-*/}

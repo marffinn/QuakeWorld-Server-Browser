@@ -20,5 +20,13 @@ body {
     background-color: greenyellow;
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+}
+.progress_text {
+
+}
+root {
+    margin: 0;
+    padding: 0;
 }
