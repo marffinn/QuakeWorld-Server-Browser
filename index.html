@@ -13,20 +13,50 @@
   <body>
     <!-- root element -->
     <root>
-      <button class="btn_update_masters">Update from master</button>
-      <button class="btn_refresh_servers">Refresh servers</button>
+      <div
+        class="container-fluid sticky-top bg-info-subtle"
+        style="padding-top: 10px; padding-bottom: 10px"
+      >
+        <button
+          type="button"
+          class="btn_update_masters btn btn-primary btn-warning text-uppercase"
+          style="
+            --bs-btn-padding-y: 0.2rem;
+            --bs-btn-padding-x: 0.2rem;
+            --bs-btn-font-size: 0.75rem;
+          "
+        >
+          Update master
+        </button>
+        <button
+          type="button"
+          class="btn_refresh_servers btn btn-primary text-uppercase"
+          style="
+            --bs-btn-padding-y: 0.2rem;
+            --bs-btn-padding-x: 0.2rem;
+            --bs-btn-font-size: 0.75rem;
+          "
+        >
+          Refresh
+        </button>
+      </div>
 
-      <table class="table table-hover table-sm table-dark">
-        <thead>
-          <tr>
-            <th scope="col">Server name</th>
-            <th scope="col">Ping</th>
-            <th scope="col">Map</th>
-            <th scope="col">Players</th>
-          </tr>
-        </thead>
-        <tbody class="appServerList"></tbody>
-      </table>
+      <div
+        class="container-fluid bg-success-subtle"
+        style="margin: 0; padding-bottom: 10px"
+      >
+        <table class="table table-hover table-sm table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Server name</th>
+              <th scope="col">Ping</th>
+              <th scope="col">Map</th>
+              <th scope="col">Players</th>
+            </tr>
+          </thead>
+          <tbody class="appServerList"></tbody>
+        </table>
+      </div>
 
       <p class="progress_bar_percentage"><b class="progress_text"></b></p>
     </root>

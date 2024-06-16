@@ -48,7 +48,7 @@ let readServers = () => {
 
             let oneServerPrepare =
                 `<tr href="${serverList[s].address}" data-name="${serverList[s].name}" data-ping="${serverList[s].ping}" data-playerno="${serverList[s].numplayers}">
-                    <th class="serverName"><a href="${serverList[s].address}">${serverList[s].name}</a></th>
+                    <th class="serverName text-truncate"><a href="${serverList[s].address}">${serverList[s].name}</a></th>
                     <th class="serverPing">${serverList[s].ping}</th>
                     <th class="serverMap">${serverList[s].map}</th>
                     <th class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</th>

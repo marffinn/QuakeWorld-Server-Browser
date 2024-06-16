@@ -6,7 +6,6 @@ body {
     display: block;
     width: 100%;
     height: 20px;
-    /* float: left; */
     background-color: bisque;
     position: fixed;
     bottom: 0;
@@ -24,7 +23,7 @@ body {
     bottom: 0;
 }
 .progress_text {
-
+    font-size: .6rem;
 }
 root {
     margin: 0;

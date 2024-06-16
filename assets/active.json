@@ -1,0 +1,73 @@
+[
+	{
+		"protocol": "qws",
+		"address": "152.67.110.136:28503",
+		"status": "online",
+		"hostname": "152.67.110.136:28503",
+		"name": "FunkyQW #3:28503",
+		"gametype": "qw",
+		"map": "catalyst",
+		"numplayers": 2,
+		"maxplayers": 2,
+		"numspectators": 2,
+		"maxspectators": 12,
+		"ping": 335,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 0.36",
+			"*z_ext": "511",
+			"*admin": "FunkyBoSs <MSGme@Quake.World.discord>",
+			"ktxver": "1.42",
+			"sv_antilag": "2",
+			"*gamedir": "qw",
+			"mode": "1on1",
+			"timelimit": "10",
+			"deathmatch": "3",
+			"*qvm": "so",
+			"*progs": "so",
+			"serverdemo": "duel_zzz_vs_plank[catalyst]20240616-1132.mvd",
+			"fpd": "206",
+			"status": "10 min left"
+		},
+		"players": [
+			{
+				"number": 8,
+				"name": "zzz",
+				"score": 1,
+				"time": "0s",
+				"ping": 12,
+				"skin": "",
+				"team": "blue"
+			},
+			{
+				"number": 11,
+				"name": "Plank",
+				"score": 0,
+				"time": "0s",
+				"ping": 25,
+				"skin": "",
+				"team": "Aus"
+			},
+			{
+				"number": 19,
+				"name": "player",
+				"score": -9999,
+				"time": "0s",
+				"ping": 34,
+				"skin": "base",
+				"team": "coop"
+			},
+			{
+				"number": 20,
+				"name": "[ServeMe]",
+				"score": -9999,
+				"time": "0s",
+				"ping": 666,
+				"skin": "",
+				"team": "lqwc"
+			}
+		]
+	}
+]
