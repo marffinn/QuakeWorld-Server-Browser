@@ -1,3 +1,7 @@
+root {
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +18,7 @@ body {
 .progress_bar_percentage {
     display: none;
     width: 0%;
-    height: 20px;
+    height: auto;
     float: left;
     background-color: greenyellow;
     margin: 0;
@@ -24,8 +28,29 @@ body {
 }
 .progress_text {
     font-size: .6rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    /* vertical-align: middle; */
 }
-root {
-    margin: 0;
-    padding: 0;
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }

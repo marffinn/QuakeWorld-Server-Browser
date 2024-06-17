@@ -1,0 +1,184 @@
+[
+	{
+		"protocol": "qws",
+		"address": "213.239.216.253:27500",
+		"status": "online",
+		"hostname": "213.239.216.253:27500",
+		"name": "FFA @ qw.servegame.org",
+		"gametype": "qw",
+		"map": "dm6",
+		"numplayers": 6,
+		"maxplayers": 20,
+		"numspectators": 3,
+		"maxspectators": 20,
+		"ping": 46,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 0.33",
+			"*z_ext": "511",
+			"*gamedir": "qw",
+			"ktxver": "1.38",
+			"sv_antilag": "2",
+			"needpass": "4",
+			"fpd": "142",
+			"deathmatch": "3",
+			"*progs": "so",
+			"timelimit": "6",
+			"serverdemo": "ffa_1[dm6]240617-1903.mvd",
+			"status": "5 min left"
+		},
+		"players": [
+			{
+				"number": 53,
+				"name": "Myagi",
+				"score": 7,
+				"time": "1m0s",
+				"ping": 25,
+				"skin": "dm-myagi",
+				"team": "dojo"
+			},
+			{
+				"number": 56,
+				"name": "[ServeMe]",
+				"score": -9999,
+				"time": "1m0s",
+				"ping": 666,
+				"skin": "",
+				"team": "lqwc"
+			},
+			{
+				"number": 19,
+				"name": "smik",
+				"score": 15,
+				"time": "1m0s",
+				"ping": 25,
+				"skin": "",
+				"team": "blue"
+			},
+			{
+				"number": 39,
+				"name": "PLAYER",
+				"score": -9999,
+				"time": "1m0s",
+				"ping": 133,
+				"skin": "",
+				"team": ""
+			},
+			{
+				"number": 50,
+				"name": "Chihab Lamouri",
+				"score": 17,
+				"time": "1m0s",
+				"ping": 39,
+				"skin": "2",
+				"team": "lidl"
+			},
+			{
+				"number": 45,
+				"name": "slaughter[SSC]",
+				"score": 7,
+				"time": "1m0s",
+				"ping": 48,
+				"skin": "",
+				"team": "ssc"
+			},
+			{
+				"number": 55,
+				"name": "smok",
+				"score": 13,
+				"time": "1m0s",
+				"ping": 38,
+				"skin": "base",
+				"team": "rr"
+			},
+			{
+				"number": 87,
+				"name": "gsferg",
+				"score": -9999,
+				"time": "1m0s",
+				"ping": 152,
+				"skin": "base",
+				"team": "observe"
+			},
+			{
+				"number": 57,
+				"name": "sickness",
+				"score": 1,
+				"time": "1m0s",
+				"ping": 25,
+				"skin": "",
+				"team": "tro"
+			}
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "85.28.131.207:27501",
+		"status": "online",
+		"hostname": "85.28.131.207:27501",
+		"name": "-= Impactoria =-   <Mlp 2>",
+		"gametype": "qw",
+		"map": "dm2",
+		"numplayers": 0,
+		"maxplayers": 8,
+		"numspectators": 0,
+		"maxspectators": 6,
+		"ping": 45,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 1.00-dev",
+			"*z_ext": "511",
+			"*admin": "impact0r <qwrules@gmail.com>",
+			"timelimit": "20",
+			"teamplay": "2",
+			"deathmatch": "1",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"ktxver": "1.43-dev",
+			"status": "Standby",
+			"*qvm": "so",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "85.28.131.207:27500",
+		"status": "online",
+		"hostname": "85.28.131.207:27500",
+		"name": "-= Impactoria =-   <Mlp 1>",
+		"gametype": "qw",
+		"map": "dm4",
+		"numplayers": 0,
+		"maxplayers": 8,
+		"numspectators": 0,
+		"maxspectators": 6,
+		"ping": 44,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 1.00-dev",
+			"*z_ext": "511",
+			"timelimit": "20",
+			"teamplay": "2",
+			"deathmatch": "1",
+			"fpd": "206",
+			"ktxver": "1.43-dev",
+			"status": "Standby",
+			"*admin": "impact0r <qwrules@gmail.com>",
+			"*gamedir": "qw",
+			"*qvm": "so",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	}
+]
