@@ -52,7 +52,7 @@ let updateFromMaster = () => {
 };
 
 let readServers = () => {
-  $(".appServerList").empty();
+  
   // .\assets\qstat.exe -f .\assets\hos.txt -nh -ne -R -P -u -sort n  -json -of .\assets\cacheservers.json
   let ss = spawn(`assets/qstat.exe`, [
     "-f",
@@ -68,6 +68,7 @@ let readServers = () => {
     "-of",
     `assets/cacheservers.json`,
   ]).on("close", () => {
+    $(".appServerList").empty();
     let rawdata = fs.readFileSync(`assets/cacheservers.json`);
     let serverList = JSON.parse(rawdata);
     for (let s in serverList) {
