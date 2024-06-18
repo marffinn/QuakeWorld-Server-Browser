@@ -9,14 +9,25 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link
+      <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
   </head>
-  <body>
+
+  <body class="bg-light">
+    <div class="top_bar" style="-webkit-user-select: none; -webkit-app-region: drag">
+      <div class="win_buttons">
+        <div class="win_minimize"></div>
+        <div class="win_maximize"></div>
+        <div class="win_close"></div>
+      </div>
+    </div>
+
     <!-- root element -->
     <root class="bg-light">
-      <div
-        class="container-fluid sticky-top bg-light"
-        style="padding-top: 10px; padding-bottom: 10px"
-      >
+      <div class="container-fluid sticky-top bg-light" style="margin-top: 1rem; margin-bottom: 1rem;">
         <button
           type="button"
           class="btn_update_masters btn btn-primary btn-warning text-uppercase"
@@ -41,11 +52,19 @@
         </button>
       </div>
 
+      <p class="progress_bar_percentage"><b class="progress_text"></b></p>
+    </root>
+    <!-- end of root -->
+
+    <div class="table_container">
       <div
-        class="container-fluid bg-light"
+        class="bg-light overflow-y-auto"
         style="margin: 0; padding-bottom: 10px"
       >
-        <table class="table table-hover table-sm bg-success-subtle">
+        <table
+          class="table table-hover table-sm bg-success-subtle table-striped table-bordered"
+          style="margin-bottom: 0;"
+        >
           <thead>
             <tr>
               <th scope="col">Server name</th>
@@ -54,14 +73,10 @@
               <th scope="col">Players</th>
             </tr>
           </thead>
-          <tbody class="appServerList"></tbody>
+          <tbody class="appServerList table-group-divider"></tbody>
         </table>
       </div>
-
-      <p class="progress_bar_percentage"><b class="progress_text"></b></p>
-    </root>
-    <!-- end of root -->
-
+    </div>
     <!-- scripts included -->
     <script src="./renderer.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

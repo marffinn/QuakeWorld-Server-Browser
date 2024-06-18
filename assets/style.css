@@ -1,56 +1,116 @@
 root {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+.top_bar {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 30px;
+  background-color: #f1f1f1;
+}
+.table_container {
+  overflow-y: scroll;
+  display: block;
+  height: 400px;
+  float: left;
+  width: 98%;
+  margin: 0% 1%;
+}
+.win_draggable {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.win_buttons {
+  display: block;
+  position: relative;
+  border: 1px solid #888;
+  display: block;
+  width: auto;
+  height: auto;
+  top: 0;
+  border-radius: 15px;
+  float: right;
+  z-index: 9999;
+  right: 11px;
+  padding: 5px 15px;
+}
+.win_buttons img {
+    width: 32px;
+}
+.win_minimize {
+  display: block;
+  float: right;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  background-color:cadetblue;
+}
+.win_maximize {
+  display: block;
+  width: 15px;
+  height: 15px;
+  float: right;
+  position: relative;
+  background-color: azure;
+}
+.win_close {
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  float: right;
+  background-color:mediumvioletred;
 }
 .progress_Bar {
-    display: block;
-    width: 100%;
-    height: 20px;
-    background-color: bisque;
-    position: fixed;
-    bottom: 0;
-    padding: 0;
+  display: block;
+  width: 100%;
+  height: 20px;
+  background-color: bisque;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
 }
 .progress_bar_percentage {
-    display: none;
-    width: 0%;
-    height: auto;
-    float: left;
-    background-color: greenyellow;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    bottom: 0;
+  display: none;
+  width: 0%;
+  height: auto;
+  float: left;
+  background-color: greenyellow;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
 }
 .progress_text {
-    font-size: .6rem;
-    text-align: center;
-    display: block;
-    width: 100%;
-    padding: 5px 0px;
-    /* vertical-align: middle; */
+  font-size: 0.6rem;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  /* vertical-align: middle; */
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+  background: #f1f1f1;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+  background: #555;
 }
