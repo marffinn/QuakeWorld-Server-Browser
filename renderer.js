@@ -33,27 +33,28 @@ let updateFromMaster = () => {
     "-json",
     "-of",
     `assets/servers.json`,
-  ]);
-  ls.stderr.on("data", (data) => {
-    let progress = data.toString();
-    let bar = progress.substring(0, progress.indexOf(" ("));
-    var fields = bar.split("/");
-    var currentNum = 100 / fields[1];
-    var barPercent = parseInt(fields[0] * currentNum);
-    progressBar.css("width", barPercent + "%");
-  });
-  ls.on("close", () => {
-    let d = new Date();
-    let h = addZero(d.getHours());
-    let m = addZero(d.getMinutes());
-    let resultInfo = `Last refresh: ${h}:${m}`;
-    $(".progress_text").html(resultInfo);
-  });
+  ])
+    .stderr.on("data", (data) => {
+      let progress = data.toString();
+      let bar = progress.substring(0, progress.indexOf(" ("));
+      var fields = bar.split("/");
+      var currentNum = 100 / fields[1];
+      var barPercent = parseInt(fields[0] * currentNum);
+      progressBar.css("width", barPercent + "%");
+    })
+    .on("close", () => {
+      let d = new Date();
+      let h = addZero(d.getHours());
+      let m = addZero(d.getMinutes());
+      let resultInfo = `Last refresh: ${h}:${m}`;
+      $(".progress_text").html(resultInfo);
+    });
 };
 
 let readServers = () => {
-  // .\assets\qstat.exe -f .\assets\hos.txt -nh -ne -R -P -u -sort n  -json -of .\assets\cacheservers.json
-  let ss = spawn(`assets/qstat.exe`, [
+  $(".btn_refresh_servers").prop("disabled", true).addClass("disabled");
+
+  spawn(`assets/qstat.exe`, [
     "-f",
     "assets/hosts.txt",
     "-nh",
@@ -87,31 +88,26 @@ let readServers = () => {
         $(".appServerList").append(oneServerPrepare);
       }
     }
-    ipcRenderer.send('resize-me-please')
-
+    $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
   });
 };
 
 let onAppLoad = () => {
   let rawdata = fs.readFileSync(`assets/cacheservers.json`);
-    let serverList = JSON.parse(rawdata);
-    for (let s in serverList) {
-      if (
-        serverList[s].map === undefined ||
-        serverList[s].map === "?"
-      )
-        continue;
-      else {
-        let oneServerPrepare = `<tr href="${serverList[s].address}" data-name="${serverList[s].name}" data-ping="${serverList[s].ping}" data-playerno="${serverList[s].numplayers}">
+  let serverList = JSON.parse(rawdata);
+  for (let s in serverList) {
+    if (serverList[s].map === undefined || serverList[s].map === "?") continue;
+    else {
+      let oneServerPrepare = `<tr href="${serverList[s].address}" data-name="${serverList[s].name}" data-ping="${serverList[s].ping}" data-playerno="${serverList[s].numplayers}">
                       <th class="serverName text-truncate">${serverList[s].name}</th>
                       <th class="serverPing">${serverList[s].ping}</th>
                       <th class="serverMap">${serverList[s].map}</th>
                       <th class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</th>
                   </tr>`;
-        $(".appServerList").append(oneServerPrepare);
-      }
+      $(".appServerList").append(oneServerPrepare);
     }
-}
+  }
+};
 
 $(".btn_update_masters").on("click", updateFromMaster);
 $(".btn_refresh_servers").on("click", readServers);

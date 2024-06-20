@@ -11,8 +11,10 @@ body {
   float: left;
   width: 100%;
   height: auto;
-  background-color: #f1f1f1;
+  position: relative;
+  /* background-color: #f1f1f1; */
   padding: 10px 0;
+  z-index: 8000;
 }
 .table_container {
   overflow-y: scroll;
@@ -21,7 +23,6 @@ body {
   float: left;
   width: 98%;
   margin: 0% 1%;
-  filter: drop-shadow(0px -2px 2px #808080);
 }
 .win_draggable {
   padding-top: 10px;

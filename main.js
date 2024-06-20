@@ -2,8 +2,10 @@ const { app, BrowserWindow } = require("electron");
 const path = require("node:path");
 const { ipcMain } = require("electron");
 
+let mainWindow;
+
 const createWindow = () => {
-  const mainWindow = new BrowserWindow({
+  mainWindow = new BrowserWindow({
     width: 800,
     height: 500,
     frame: false,
@@ -16,7 +18,7 @@ const createWindow = () => {
   });
 
   mainWindow.loadFile("index.html");
-  win.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {
@@ -27,4 +29,11 @@ app.whenReady().then(() => {
 });
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
+});
+ipcMain.on("close-me", (evt, arg) => {
+  app.quit();
+});
+
+ipcMain.on("minimize-me", (evt, arg) => {
+  mainWindow.minimize();
 });
