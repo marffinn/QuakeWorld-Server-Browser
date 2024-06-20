@@ -6,12 +6,12 @@
 		"hostname": "193.227.134.114:27500",
 		"name": "BattleAxe TF",
 		"gametype": "fortress",
-		"map": "qdeth3",
-		"numplayers": 10,
+		"map": "classic1",
+		"numplayers": 7,
 		"maxplayers": 16,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 153,
+		"ping": 112,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -24,37 +24,29 @@
 			"*gamedir": "fortress",
 			"timelimit": "15",
 			"fpd": "49920",
+			"n": "1",
 			"*progs": "44394",
-			"serverdemo": "20240620-201047-qdeth3.mvd",
-			"epoch": "1718903447",
-			"status": "10 min left",
-			"score": "0:10"
+			"serverdemo": "20240620-202553-classic1.mvd",
+			"epoch": "1718904353",
+			"status": "5 min left",
+			"score": "50:0"
 		},
 		"players": [
 			{
 				"number": 28,
 				"name": "C",
-				"score": 1,
-				"time": "5m0s",
-				"ping": 43,
+				"score": 53,
+				"time": "10m0s",
+				"ping": 41,
 				"skin": "tf_scout",
 				"team": "blue"
 			},
 			{
-				"number": 22,
-				"name": "donttcpmyip",
-				"score": 24,
-				"time": "5m0s",
-				"ping": 12,
-				"skin": "tf_demo",
-				"team": "red"
-			},
-			{
 				"number": 42,
 				"name": "Davkey",
-				"score": 9,
-				"time": "2m0s",
-				"ping": 67,
+				"score": -1,
+				"time": "10m0s",
+				"ping": 70,
 				"skin": "tf_sold",
 				"team": "red"
 			},
@@ -62,25 +54,16 @@
 				"number": 26,
 				"name": "Envy",
 				"score": 0,
-				"time": "5m0s",
-				"ping": 50,
-				"skin": "base",
-				"team": ""
-			},
-			{
-				"number": 35,
-				"name": "sd sss",
-				"score": 1,
-				"time": "5m0s",
-				"ping": 47,
-				"skin": "tf_demo",
-				"team": "blue"
+				"time": "10m0s",
+				"ping": 38,
+				"skin": "tf_sold",
+				"team": "red"
 			},
 			{
 				"number": 34,
 				"name": "ezhHaMMeR",
-				"score": 4,
-				"time": "5m0s",
+				"score": 57,
+				"time": "10m0s",
 				"ping": 12,
 				"skin": "tf_sold",
 				"team": "blue"
@@ -88,38 +71,29 @@
 			{
 				"number": 30,
 				"name": "Snyd",
-				"score": 14,
-				"time": "5m0s",
+				"score": 16,
+				"time": "10m0s",
 				"ping": 61,
-				"skin": "tf_sold",
+				"skin": "tf_eng",
 				"team": "red"
 			},
 			{
 				"number": 36,
 				"name": "[niesd] pvv",
-				"score": 5,
-				"time": "5m0s",
+				"score": 54,
+				"time": "10m0s",
 				"ping": 12,
-				"skin": "tf_demo",
+				"skin": "tf_sold",
 				"team": "blue"
 			},
 			{
 				"number": 38,
 				"name": "[sd] hunter",
-				"score": 21,
-				"time": "5m0s",
-				"ping": 30,
-				"skin": "tf_eng",
+				"score": 14,
+				"time": "10m0s",
+				"ping": 14,
+				"skin": "tf_demo",
 				"team": "red"
-			},
-			{
-				"number": 40,
-				"name": "stm",
-				"score": 2,
-				"time": "5m0s",
-				"ping": 40,
-				"skin": "tf_sold",
-				"team": "blue"
 			}
 		]
 	},
@@ -130,12 +104,12 @@
 		"hostname": "213.239.216.253:27500",
 		"name": "FFA @ qw.servegame.org",
 		"gametype": "qw",
-		"map": "utressor",
-		"numplayers": 7,
+		"map": "four",
+		"numplayers": 5,
 		"maxplayers": 20,
-		"numspectators": 3,
+		"numspectators": 4,
 		"maxspectators": 12,
-		"ping": 151,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -150,60 +124,69 @@
 			"deathmatch": "3",
 			"*progs": "so",
 			"timelimit": "6",
-			"serverdemo": "ffa_1[utressor]240620-1714.mvd",
-			"status": "5 min left"
+			"serverdemo": "ffa_1[four]240620-1732.mvd",
+			"status": "3 min left"
 		},
 		"players": [
 			{
 				"number": 75,
 				"name": "pkk",
-				"score": 24,
-				"time": "2m0s",
+				"score": 34,
+				"time": "3m0s",
 				"ping": 51,
 				"skin": "",
 				"team": "koff"
 			},
 			{
-				"number": 91,
-				"name": "DestBR",
-				"score": 1,
-				"time": "2m0s",
-				"ping": 207,
-				"skin": "base",
-				"team": "red"
-			},
-			{
-				"number": 85,
-				"name": "floc",
-				"score": 15,
-				"time": "2m0s",
-				"ping": 26,
-				"skin": "",
-				"team": "blue"
-			},
-			{
-				"number": 3,
-				"name": "[ServeMe]",
-				"score": -9999,
-				"time": "1m0s",
-				"ping": 666,
-				"skin": "",
-				"team": "lqwc"
-			},
-			{
-				"number": 2,
+				"number": 9,
 				"name": "Dark443",
-				"score": 1,
-				"time": "2m0s",
+				"score": 5,
+				"time": "3m0s",
 				"ping": 39,
 				"skin": "",
 				"team": ""
 			},
 			{
+				"number": 85,
+				"name": "floc",
+				"score": 39,
+				"time": "3m0s",
+				"ping": 26,
+				"skin": "",
+				"team": "blue"
+			},
+			{
+				"number": 10,
+				"name": "[streambot]",
+				"score": -9999,
+				"time": "3m0s",
+				"ping": 33,
+				"skin": "",
+				"team": "twitch"
+			},
+			{
+				"number": 13,
+				"name": "DestBR",
+				"score": 0,
+				"time": "0s",
+				"ping": 207,
+				"skin": "base",
+				"team": "red"
+			},
+			{
+				"number": 14,
+				"name": "Carmolio",
+				"score": -9999,
+				"time": "0s",
+				"ping": 999,
+				"skin": "",
+				"team": "blue"
+			},
+			{
 				"number": 22,
 				"name": "PET_USER_6502",
 				"score": -9999,
-				"time": "2m0s",
+				"time": "3m0s",
 				"ping": 20,
 				"skin": "badbabe2",
 				"team": ""
@@ -211,178 +194,20 @@
 			{
 				"number": 31,
 				"name": "linux trapster",
-				"score": 20,
-				"time": "2m0s",
-				"ping": 51,
+				"score": 17,
+				"time": "3m0s",
+				"ping": 50,
 				"skin": "base",
 				"team": "div9"
 			},
 			{
-				"number": 97,
-				"name": "robin",
-				"score": 23,
-				"time": "2m0s",
-				"ping": 51,
-				"skin": "",
-				"team": "tro"
-			},
-			{
-				"number": 98,
-				"name": "wallu",
-				"score": 23,
-				"time": "2m0s",
-				"ping": 40,
-				"skin": "",
-				"team": "koff"
-			},
-			{
-				"number": 95,
-				"name": "Carmolio",
-				"score": -9999,
-				"time": "2m0s",
-				"ping": 182,
-				"skin": "",
-				"team": "blue"
-			}
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28501",
-		"status": "online",
-		"hostname": "46.227.68.148:28501",
-		"name": "QUAKE.SE KTX:28501 (blue vs. red)",
-		"gametype": "qw",
-		"map": "dm2",
-		"numplayers": 4,
-		"maxplayers": 4,
-		"numspectators": 1,
-		"maxspectators": 12,
-		"ping": 76,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"serverdemo": "2on2_blue_vs_red[dm2]20240620-1908.mvd",
-			"epoch": "1718903284",
-			"fpd": "206",
-			"status": "2 min left"
-		},
-		"players": [
-			{
-				"number": 48,
-				"name": "doberman",
-				"score": 12,
-				"time": "9m0s",
-				"ping": 38,
-				"skin": "",
-				"team": "blue"
-			},
-			{
-				"number": 39,
+				"number": 12,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "12m0s",
+				"time": "3m0s",
 				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
-			},
-			{
-				"number": 40,
-				"name": "badass",
-				"score": 12,
-				"time": "12m0s",
-				"ping": 46,
-				"skin": "",
-				"team": "blue"
-			},
-			{
-				"number": 44,
-				"name": "Quake",
-				"score": 12,
-				"time": "12m0s",
-				"ping": 51,
-				"skin": "",
-				"team": "red"
-			},
-			{
-				"number": 45,
-				"name": "usul|gf",
-				"score": 13,
-				"time": "12m0s",
-				"ping": 60,
-				"skin": "",
-				"team": "red"
-			}
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28000",
-		"status": "online",
-		"hostname": "46.227.68.148:28000",
-		"name": "QUAKE.SE KTX Qtv",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 1,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 132,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-			{
-				"number": 278,
-				"name": "[streambot]",
-				"score": 0,
-				"time": "9m0s",
-				"ping": 666,
-				"skin": "",
-				"team": ""
-			}
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "108.61.178.207:30000",
-		"status": "online",
-		"hostname": "108.61.178.207:30000",
-		"name": "de.quake.world QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 1,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 67,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-			{
-				"number": 7,
-				"name": "robin",
-				"score": 0,
-				"time": "10m0s",
-				"ping": 666,
-				"skin": "",
-				"team": ""
 			}
 		]
 	},
@@ -393,12 +218,12 @@
 		"hostname": "185.73.44.100:27500",
 		"name": "Barrysworld FFA Tribute",
 		"gametype": "qw",
-		"map": "fire",
-		"numplayers": 1,
+		"map": "spinev2",
+		"numplayers": 4,
 		"maxplayers": 26,
 		"numspectators": 1,
 		"maxspectators": 6,
-		"ping": 111,
+		"ping": 85,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -409,56 +234,92 @@
 			"sv_antilag": "1",
 			"*gamedir": "qw",
 			"deathmatch": "3",
-			"timelimit": "12",
 			"*qvm": "so",
 			"*progs": "so",
+			"timelimit": "12",
 			"fpd": "142",
 			"status": "Standby"
 		},
 		"players": [
 			{
-				"number": 66,
+				"number": 69,
+				"name": "/ bro",
+				"score": 73,
+				"time": "14m0s",
+				"ping": 10,
+				"skin": "base",
+				"team": ""
+			},
+			{
+				"number": 70,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "18m0s",
+				"time": "14m0s",
 				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
 			},
 			{
+				"number": 71,
+				"name": "/ goldenboy",
+				"score": 89,
+				"time": "14m0s",
+				"ping": 10,
+				"skin": "base",
+				"team": ""
+			},
+			{
 				"number": 55,
 				"name": "reznor",
 				"score": 0,
-				"time": "18m0s",
+				"time": "14m0s",
 				"ping": 51,
 				"skin": "",
+				"team": ""
+			},
+			{
+				"number": 72,
+				"name": "/ tincan",
+				"score": 76,
+				"time": "14m0s",
+				"ping": 10,
+				"skin": "base",
 				"team": ""
 			}
 		]
 	},
 	{
 		"protocol": "qws",
-		"address": "139.162.245.4:30000",
+		"address": "185.73.44.100:30000",
 		"status": "online",
-		"hostname": "139.162.245.4:30000",
-		"name": "unnamed qwfwd",
+		"hostname": "185.73.44.100:30000",
+		"name": "dm6.uk QWfwd",
 		"gametype": "",
 		"map": "?",
-		"numplayers": 1,
+		"numplayers": 2,
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 61,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
-			"*version": "qwfwd 1.2-dev"
+			"*version": "qwfwd 1.2"
 		},
 		"players": [
 			{
-				"number": 1831,
+				"number": 47,
+				"name": "Carmolio",
+				"score": 0,
+				"time": "0s",
+				"ping": 666,
+				"skin": "",
+				"team": ""
+			},
+			{
+				"number": 46,
 				"name": "Dark443",
 				"score": 0,
-				"time": "4m0s",
+				"time": "7m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -473,21 +334,30 @@
 		"name": "nl.quake.world QWfwd",
 		"gametype": "",
 		"map": "?",
-		"numplayers": 1,
+		"numplayers": 2,
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 87,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
 		},
 		"players": [
 			{
-				"number": 2,
+				"number": 4,
+				"name": "Carmolio",
+				"score": 0,
+				"time": "0s",
+				"ping": 666,
+				"skin": "",
+				"team": ""
+			},
+			{
+				"number": 3,
 				"name": "Dark443",
 				"score": 0,
-				"time": "4m0s",
+				"time": "7m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -496,56 +366,27 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "185.73.44.100:28000",
+		"address": "178.79.135.210:30000",
 		"status": "online",
-		"hostname": "185.73.44.100:28000",
-		"name": "dm6.uk Qtv",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 1,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 150,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-			{
-				"number": 487,
-				"name": "unnamed",
-				"score": 0,
-				"time": "9h39m0s",
-				"ping": 666,
-				"skin": "",
-				"team": ""
-			}
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.73.44.100:30000",
-		"status": "online",
-		"hostname": "185.73.44.100:30000",
-		"name": "dm6.uk QWfwd",
+		"hostname": "178.79.135.210:30000",
+		"name": "anyother map test QWfwd",
 		"gametype": "",
 		"map": "?",
 		"numplayers": 1,
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 78,
+		"ping": 81,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
 		},
 		"players": [
 			{
-				"number": 45,
-				"name": "Dark443",
+				"number": 63,
+				"name": "Carmolio",
 				"score": 0,
-				"time": "3m0s",
+				"time": "0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -564,7 +405,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 70,
+		"ping": 65,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -574,7 +415,7 @@
 				"number": 139,
 				"name": "badass",
 				"score": 0,
-				"time": "52m0s",
+				"time": "1h12m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -593,7 +434,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 141,
+		"ping": 89,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -603,7 +444,7 @@
 				"number": 7703,
 				"name": "doberman",
 				"score": 0,
-				"time": "9m0s",
+				"time": "29m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -612,160 +453,31 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "95.216.18.118:30000",
+		"address": "185.73.44.100:28000",
 		"status": "online",
-		"hostname": "95.216.18.118:30000",
-		"name": "troopers.fi QWfwd",
+		"hostname": "185.73.44.100:28000",
+		"name": "dm6.uk Qtv",
 		"gametype": "",
 		"map": "?",
 		"numplayers": 1,
-		"maxplayers": 128,
+		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 74,
+		"ping": 244,
 		"retries": 0,
 		"rules": {
-			"*version": "qwfwd 1.2"
+			"*version": "QTV 1.14"
 		},
 		"players": [
 			{
-				"number": 562,
-				"name": "wallu",
+				"number": 487,
+				"name": "unnamed",
 				"score": 0,
-				"time": "9m0s",
+				"time": "9h59m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
 			}
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.40.66.105:28503",
-		"status": "online",
-		"hostname": "188.40.66.105:28503",
-		"name": "Quake for Newbies | nQuake | discord.q4n.eu:28503",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 42,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"*admin": "froschgrosch <quake@example.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.40.66.105:28501",
-		"status": "online",
-		"hostname": "188.40.66.105:28501",
-		"name": "Quake for Newbies | nQuake | discord.q4n.eu:28501",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 46,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"fpd": "206",
-			"*admin": "froschgrosch <quake@example.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:30000",
-		"status": "online",
-		"hostname": "46.227.68.148:30000",
-		"name": "QUAKE.SE KTX QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 74,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.40.66.105:28504",
-		"status": "online",
-		"hostname": "188.40.66.105:28504",
-		"name": "Quake for Newbies | nQuake | discord.q4n.eu:28504",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 50,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*admin": "froschgrosch <quake@example.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"fpd": "206",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
 		]
 	},
 	{
@@ -780,7 +492,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 152,
+		"ping": 213,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -801,7 +513,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 15,
-		"ping": 80,
+		"ping": 91,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -837,7 +549,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 122,
+		"ping": 65,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -858,7 +570,7 @@
 		"maxplayers": 15,
 		"numspectators": 0,
 		"maxspectators": 15,
-		"ping": 86,
+		"ping": 99,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -894,7 +606,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 15,
-		"ping": 86,
+		"ping": 182,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -920,68 +632,6 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "85.242.107.149:28501",
-		"status": "online",
-		"hostname": "85.242.107.149:28501",
-		"name": "pt.quake.world",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 94,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"*admin": "root <fabiomenezes@admedia.pt>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.202.86:27666",
-		"status": "online",
-		"hostname": "95.216.202.86:27666",
-		"name": "Qizmo - Quakeworld.fi",
-		"gametype": "",
-		"map": "start",
-		"numplayers": 0,
-		"maxplayers": 32,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 67,
-		"retries": 0,
-		"rules": {
-			"fraglimit": "0",
-			"timelimit": "0",
-			"teamplay": "2",
-			"deathmatch": "3",
-			"*version": "2.91",
-			"*progs": "666"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
 		"address": "185.117.88.217:28501",
 		"status": "online",
 		"hostname": "185.117.88.217:28501",
@@ -992,7 +642,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 73,
+		"ping": 154,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1029,7 +679,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 75,
+		"ping": 163,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1056,82 +706,6 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "95.216.202.86:28501",
-		"status": "online",
-		"hostname": "95.216.202.86:28501",
-		"name": "Quakeworld.fi KTX",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 65,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "VuRkka <vurkka@gmail.com>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"needpass": "4",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718889842"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.202.86:28502",
-		"status": "online",
-		"hostname": "95.216.202.86:28502",
-		"name": "Quakeworld.fi FFA",
-		"gametype": "qw",
-		"map": "rf2test",
-		"numplayers": 0,
-		"maxplayers": 12,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 76,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "VuRkka <vurkka@gmail.com>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"mode": "ffa",
-			"needpass": "4",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"deathmatch": "3",
-			"fraglimit": "50",
-			"timelimit": "8",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718897641"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
 		"address": "95.216.202.86:28000",
 		"status": "online",
 		"hostname": "95.216.202.86:28000",
@@ -1142,573 +716,10 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 120,
+		"ping": 149,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "62.80.247.69:27051",
-		"status": "online",
-		"hostname": "62.80.247.69:27051",
-		"name": "quakeroach.net",
-		"gametype": "",
-		"map": "e2m4",
-		"numplayers": 0,
-		"maxplayers": 16,
-		"numspectators": 0,
-		"maxspectators": 8,
-		"ping": 56,
-		"retries": 0,
-		"rules": {
-			"sv_antilag": "0",
-			"sv_antilag_frac": "1",
-			"allow_fish": "0",
-			"allow_luma": "1",
-			"allow_bump": "1",
-			"fbskins": "1",
-			"pm_bunnyspeedcap": "0",
-			"pm_ktjump": "0",
-			"pm_slidefix": "0",
-			"pm_slidyslopes": "0",
-			"pm_airstep": "0",
-			"pm_walljump": "0",
-			"pm_stepheight": "18",
-			"sv_minping": "0",
-			"*version": "FTE v1.00",
-			"*z_ext": "191",
-			"timelimit": "0",
-			"coop": "1",
-			"deathmatch": "0",
-			"g_gametype": "0",
-			"skill": "1",
-			"mapname": "e2m4"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.202.86:27500",
-		"status": "online",
-		"hostname": "95.216.202.86:27500",
-		"name": "Quakeworld.fi Coop",
-		"gametype": "id1",
-		"map": "start",
-		"numplayers": 0,
-		"maxplayers": 16,
-		"numspectators": 0,
-		"maxspectators": 16,
-		"ping": 80,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*gamedir": "id1",
-			"n": "1",
-			"*admin": "<vurkka@gmail.com>",
-			"admin": "vurkka@gmail.com",
-			"teamplay": "2",
-			"fpd": "256",
-			"*progs": "27540"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "165.232.81.173:30000",
-		"status": "online",
-		"hostname": "165.232.81.173:30000",
-		"name": "Quakeworld.TV QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 67,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.202.86:28503",
-		"status": "online",
-		"hostname": "95.216.202.86:28503",
-		"name": "Quakeworld.fi Team Fortress",
-		"gametype": "fortress",
-		"map": "rs_zz1",
-		"numplayers": 0,
-		"maxplayers": 8,
-		"numspectators": 0,
-		"maxspectators": 16,
-		"ping": 68,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"deathmatch": "3",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "<vurkka@gmail.com>",
-			"admin": "vurkka@gmail.com",
-			"pm_ktjump": "0.5",
-			"pm_bunnyspeedcap": "1.1",
-			"pm_slidefix": "1",
-			"pm_pground": "1",
-			"pm_airstep": "1",
-			"timelimit": "10.25",
-			"teamplay": "1",
-			"*gamedir": "fortress",
-			"watervis": "1",
-			"fpd": "256",
-			"n": "1",
-			"*progs": "57194"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "165.232.81.173:28501",
-		"status": "online",
-		"hostname": "165.232.81.173:28501",
-		"name": "Quakeworld.TV:28501",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 79,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.00-dev",
-			"*z_ext": "511",
-			"sv_bigcoords": "1",
-			"*admin": "meag <meag-nospam@acm.org>",
-			"ktxver": "1.43-dev",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.202.86:30000",
-		"status": "online",
-		"hostname": "95.216.202.86:30000",
-		"name": "Quakeworld.fi KTX QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 74,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.202.86:28504",
-		"status": "online",
-		"hostname": "95.216.202.86:28504",
-		"name": "Quakeworld.fi Mega Team Fortress",
-		"gametype": "fortress",
-		"map": "rs_zz1",
-		"numplayers": 0,
-		"maxplayers": 8,
-		"numspectators": 0,
-		"maxspectators": 16,
-		"ping": 69,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"deathmatch": "3",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"cycledir": "qwmcycle",
-			"n": "2",
-			"*admin": "<vurkka@gmail.com>",
-			"admin": "vurkka@gmail.com",
-			"pm_ktjump": "0.5",
-			"pm_bunnyspeedcap": "1.1",
-			"pm_slidefix": "1",
-			"pm_pground": "1",
-			"pm_airstep": "1",
-			"timelimit": "10.25",
-			"teamplay": "1",
-			"*gamedir": "fortress",
-			"watervis": "1",
-			"fpd": "256",
-			"*progs": "52741",
-			"status": "1 min left"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28505",
-		"status": "online",
-		"hostname": "46.227.68.148:28505",
-		"name": "QUAKE.SE KTX:28505",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 78,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718867173"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28504",
-		"status": "online",
-		"hostname": "46.227.68.148:28504",
-		"name": "QUAKE.SE KTX:28504",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 82,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"teamplay": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"fpd": "206",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718865188"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28506",
-		"status": "online",
-		"hostname": "46.227.68.148:28506",
-		"name": "QUAKE.SE KTX:28506",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 89,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881304"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28502",
-		"status": "online",
-		"hostname": "46.227.68.148:28502",
-		"name": "QUAKE.SE KTX:28502",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 70,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718903395"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28503",
-		"status": "online",
-		"hostname": "46.227.68.148:28503",
-		"name": "QUAKE.SE KTX:28503",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 65,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881068"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28509",
-		"status": "online",
-		"hostname": "46.227.68.148:28509",
-		"name": "QUAKE.SE KTX:28509",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 73,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881305"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28510",
-		"status": "online",
-		"hostname": "46.227.68.148:28510",
-		"name": "QUAKE.SE KTX:28510",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 72,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718887707"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28507",
-		"status": "online",
-		"hostname": "46.227.68.148:28507",
-		"name": "QUAKE.SE KTX:28507",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 84,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718861001"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "46.227.68.148:28508",
-		"status": "online",
-		"hostname": "46.227.68.148:28508",
-		"name": "QUAKE.SE KTX:28508",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 82,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718875249"
 		},
 		"players": [
 
@@ -1726,7 +737,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 61,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1763,7 +774,7 @@
 		"maxplayers": 1000,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 133,
+		"ping": 125,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -1784,7 +795,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 55,
+		"ping": 68,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1821,7 +832,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 98,
+		"ping": 72,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1855,7 +866,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 89,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1889,7 +900,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 95,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1926,7 +937,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 70,
+		"ping": 171,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1963,7 +974,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 73,
+		"ping": 78,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1997,7 +1008,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 63,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2034,7 +1045,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 55,
+		"ping": 166,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2071,7 +1082,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 76,
+		"ping": 68,
 		"retries": 0,
 		"rules": {
 			"spawn": "0",
@@ -2108,7 +1119,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 92,
+		"ping": 184,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2141,7 +1152,7 @@
 		"maxplayers": 12,
 		"numspectators": 0,
 		"maxspectators": 2,
-		"ping": 85,
+		"ping": 72,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "1",
@@ -2173,7 +1184,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 76,
+		"ping": 77,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2208,8 +1219,8 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 112,
-		"retries": 0,
+		"ping": 1177,
+		"retries": 1,
 		"rules": {
 			"*version": "qwfwd 1.2"
 		},
@@ -2229,7 +1240,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 82,
+		"ping": 57,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2263,7 +1274,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 74,
+		"ping": 63,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2297,7 +1308,7 @@
 		"maxplayers": 12,
 		"numspectators": 0,
 		"maxspectators": 2,
-		"ping": 92,
+		"ping": 68,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "1",
@@ -2334,7 +1345,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 122,
+		"ping": 108,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.10-dev"
@@ -2355,7 +1366,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 42,
+		"ping": 28,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2392,7 +1403,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 36,
+		"ping": 29,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2429,7 +1440,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 42,
+		"ping": 31,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2464,7 +1475,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 104,
+		"ping": 106,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -2485,7 +1496,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 46,
+		"ping": 29,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -2541,7 +1552,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 36,
+		"ping": 32,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -2562,7 +1573,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 32,
+		"ping": 33,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2597,7 +1608,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 33,
+		"ping": 30,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2632,7 +1643,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 48,
+		"ping": 56,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2667,7 +1678,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 62,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2702,7 +1713,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 78,
+		"ping": 56,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2737,7 +1748,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 66,
+		"ping": 61,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2772,7 +1783,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 71,
+		"ping": 65,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2807,7 +1818,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 138,
+		"ping": 112,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2842,7 +1853,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 68,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2878,7 +1889,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 74,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2914,7 +1925,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 61,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2940,2087 +1951,6 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "79.139.57.116:27500",
-		"status": "online",
-		"hostname": "79.139.57.116:27500",
-		"name": "SzondikapitanySzervere|http://szondi.ninja",
-		"gametype": "qw",
-		"map": "e1m2",
-		"numplayers": 0,
-		"maxplayers": 26,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 72,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.32",
-			"*z_ext": "511",
-			"*admin": "http://szondi.ninja",
-			"ktxver": "1.38",
-			"sv_antilag": "2",
-			"timelimit": "20",
-			"*progs": "so",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"deathmatch": "3"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.189.48.45:28506",
-		"status": "online",
-		"hostname": "185.189.48.45:28506",
-		"name": "Suddendeath.nu KTX:28506",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 67,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"fpd": "206",
-			"*admin": "feffe <fresod@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "212.193.49.233:27501",
-		"status": "online",
-		"hostname": "212.193.49.233:27501",
-		"name": "Test TF server",
-		"gametype": "fortress",
-		"map": "qdeth3",
-		"numplayers": 0,
-		"maxplayers": 24,
-		"numspectators": 0,
-		"maxspectators": 8,
-		"ping": 94,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"deathmatch": "3",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35-dev",
-			"*z_ext": "511",
-			"admin": "http://dc.qwtf.net",
-			"url": "http://qwtf.net",
-			"*gamedir": "fortress",
-			"timelimit": "30",
-			"teamplay": "1?TF2.7",
-			"fpd": "49920",
-			"pm_slidefix": "1",
-			"score": "0:0",
-			"n": "6",
-			"*progs": "39214",
-			"status": "Standby"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.189.48.45:28504",
-		"status": "online",
-		"hostname": "185.189.48.45:28504",
-		"name": "Suddendeath.nu KTX:28504",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 67,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"*admin": "feffe <fresod@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.189.48.45:28505",
-		"status": "online",
-		"hostname": "185.189.48.45:28505",
-		"name": "Suddendeath.nu KTX:28505",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 76,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"fpd": "206",
-			"*admin": "feffe <fresod@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.18.118:28001",
-		"status": "online",
-		"hostname": "95.216.18.118:28001",
-		"name": "troopers.fi:28001",
-		"gametype": "qw",
-		"map": "dm4",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 69,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"*admin": "Milton <milton_fi@yahoo.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "37.201.131.70:28501",
-		"status": "online",
-		"hostname": "37.201.131.70:28501",
-		"name": "The Mother:28501",
-		"gametype": "qw",
-		"map": "slide1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 55,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "cocks <onethree.seven@yahoo.de>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.18.118:28002",
-		"status": "online",
-		"hostname": "95.216.18.118:28002",
-		"name": "troopers.fi:28002",
-		"gametype": "qw",
-		"map": "dm4",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 63,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"*admin": "Milton <milton_fi@yahoo.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "213.164.209.174:28000",
-		"status": "online",
-		"hostname": "213.164.209.174:28000",
-		"name": "The long road north Qtv",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 126,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "213.164.209.174:28501",
-		"status": "online",
-		"hostname": "213.164.209.174:28501",
-		"name": "The long road north:28501",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 68,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"*admin": "a-row <andreas@rowicki.se>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"fpd": "206",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "176.210.100.6:30000",
-		"status": "online",
-		"hostname": "176.210.100.6:30000",
-		"name": "spider QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 180,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "176.210.100.6:28502",
-		"status": "online",
-		"hostname": "176.210.100.6:28502",
-		"name": "Spider Omsk Antilag:28502",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 2,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 153,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35-beta-antilag-r402",
-			"*z_ext": "511",
-			"*admin": "spider <quake@spider.vc>",
-			"ktxver": "1.41-beta-antilag-r402",
-			"sv_antilag": "1",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "168.119.172.182:28000",
-		"status": "online",
-		"hostname": "168.119.172.182:28000",
-		"name": "Stacja-Ateizm.pl Qtv",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 90,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "141.105.67.104:28502",
-		"status": "online",
-		"hostname": "141.105.67.104:28502",
-		"name": "Spider MSK Antilag:28502",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 2,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 145,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35-beta-antilag-r402",
-			"*z_ext": "511",
-			"*admin": "spider <quake@spider.vc>",
-			"ktxver": "1.41-beta-antilag-r402",
-			"sv_antilag": "1",
-			"status": "Standby",
-			"fpd": "206",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "176.210.100.6:28501",
-		"status": "online",
-		"hostname": "176.210.100.6:28501",
-		"name": "Spider Omsk Antilag:28501",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 139,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35-beta-antilag-r402",
-			"*z_ext": "511",
-			"fpd": "206",
-			"*admin": "spider <quake@spider.vc>",
-			"ktxver": "1.41-beta-antilag-r402",
-			"sv_antilag": "1",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.189.48.45:28502",
-		"status": "online",
-		"hostname": "185.189.48.45:28502",
-		"name": "Suddendeath.nu KTX:28502",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 55,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"fpd": "206",
-			"*admin": "feffe <fresod@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.189.48.45:28503",
-		"status": "online",
-		"hostname": "185.189.48.45:28503",
-		"name": "Suddendeath.nu KTX:28503",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 78,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"fpd": "206",
-			"*admin": "feffe <fresod@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "168.119.172.182:30000",
-		"status": "online",
-		"hostname": "168.119.172.182:30000",
-		"name": "Stacja-Ateizm.pl QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 50,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.189.48.45:28501",
-		"status": "online",
-		"hostname": "185.189.48.45:28501",
-		"name": "Suddendeath.nu KTX:28501",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 75,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"fpd": "206",
-			"*admin": "feffe <fresod@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.40.103.81:27600",
-		"status": "online",
-		"hostname": "188.40.103.81:27600",
-		"name": "[Aurora] MegaTF Co-Op Server +exp",
-		"gametype": "fortress",
-		"map": "marcher",
-		"numplayers": 0,
-		"maxplayers": 32,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 76,
-		"retries": 0,
-		"rules": {
-			"fraglimit": "0",
-			"watervis": "0",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.26XE",
-			"*z_ext": "107",
-			"*gamedir": "fortress",
-			"footsteps": "on",
-			"airscout": "on",
-			"exec_class": "on",
-			"a": "120",
-			"sg": "on",
-			"allowvote": "1",
-			"autoteam": "off",
-			"teamplay": "21?TeamFortress",
-			"prematch": "0",
-			"teamfrags": "off",
-			"ec": "on",
-			"fpd": "846",
-			"admin": "No Admin",
-			"url": "QWTF.kickedbyconsole.net",
-			"maxfps": "120",
-			"monster_lives": "3",
-			"timelimit": "0",
-			"deathmatch": "0",
-			"needpass": "4",
-			"n": "2",
-			"*progs": "11600",
-			"MegaTF": "v02.27.12United",
-			"uptime": "d:189 h:7 m:41"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "145.239.94.156:27504",
-		"status": "online",
-		"hostname": "145.239.94.156:27504",
-		"name": "zasadzka:27504",
-		"gametype": "qw",
-		"map": "aerowalk",
-		"numplayers": 0,
-		"maxplayers": 2,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 29,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.36",
-			"*z_ext": "511",
-			"*admin": "lolek <lolek@quake1.pl>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"needpass": "4",
-			"mode": "1on1",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "45.147.98.159:28505",
-		"status": "online",
-		"hostname": "45.147.98.159:28505",
-		"name": "[FR] BaseQ | :28505",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 80,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "Ch0wW <Ch0wW@baseq.fr>",
-			"ktxver": "1.44-dev",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "145.239.94.156:27502",
-		"status": "online",
-		"hostname": "145.239.94.156:27502",
-		"name": "zasadzka:27502",
-		"gametype": "qw",
-		"map": "aerowalk",
-		"numplayers": 0,
-		"maxplayers": 2,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 34,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.36",
-			"*z_ext": "511",
-			"*admin": "lolek <lolek@quake1.pl>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"needpass": "4",
-			"status": "Standby",
-			"fpd": "206",
-			"mode": "1on1",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "145.239.94.156:27503",
-		"status": "online",
-		"hostname": "145.239.94.156:27503",
-		"name": "zasadzka:27503",
-		"gametype": "qw",
-		"map": "aerowalk",
-		"numplayers": 0,
-		"maxplayers": 2,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 23,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.36",
-			"*z_ext": "511",
-			"*admin": "lolek <lolek@quake1.pl>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"needpass": "4",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "1on1",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "45.147.98.159:28503",
-		"status": "online",
-		"hostname": "45.147.98.159:28503",
-		"name": "[FR] BaseQ | KTX Server #3",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 74,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"fpd": "206",
-			"*admin": "Ch0wW <Ch0wW@baseq.fr>",
-			"ktxver": "1.44-dev",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "45.147.98.159:28502",
-		"status": "online",
-		"hostname": "45.147.98.159:28502",
-		"name": "[FR] BaseQ | KTX Server #2",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 84,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "Ch0wW <Ch0wW@baseq.fr>",
-			"ktxver": "1.44-dev",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "45.147.98.159:28504",
-		"status": "online",
-		"hostname": "45.147.98.159:28504",
-		"name": "[FR] BaseQ | KTX Server #4",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 72,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"fpd": "206",
-			"*admin": "Ch0wW <Ch0wW@baseq.fr>",
-			"ktxver": "1.44-dev",
-			"sv_antilag": "2",
-			"mode": "2on2",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "45.147.98.159:28506",
-		"status": "online",
-		"hostname": "45.147.98.159:28506",
-		"name": "[FR] BaseQ | :28506",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 74,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "Ch0wW <Ch0wW@baseq.fr>",
-			"ktxver": "1.44-dev",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "45.147.98.159:28501",
-		"status": "online",
-		"hostname": "45.147.98.159:28501",
-		"name": "[FR] BaseQ | KTX Server #1",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 79,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "Ch0wW <Ch0wW@baseq.fr>",
-			"ktxver": "1.44-dev",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.166.0.137:30000",
-		"status": "online",
-		"hostname": "188.166.0.137:30000",
-		"name": "unnamed qwfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 69,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2-dev"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "89.108.64.237:30000",
-		"status": "online",
-		"hostname": "89.108.64.237:30000",
-		"name": "unnamed qwfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 44,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "81.169.207.127:38302",
-		"status": "online",
-		"hostname": "81.169.207.127:38302",
-		"name": "vnecke",
-		"gametype": "qw",
-		"map": "ztndm1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 60,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.32",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "David <david@vnecke.social>",
-			"ktxver": "1.38",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"status": "Standby",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.18.118:28003",
-		"status": "online",
-		"hostname": "95.216.18.118:28003",
-		"name": "troopers.fi:28003",
-		"gametype": "qw",
-		"map": "dm4",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 64,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"*admin": "Milton <milton_fi@yahoo.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"fpd": "206",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.189.48.45:30000",
-		"status": "online",
-		"hostname": "185.189.48.45:30000",
-		"name": "unnamed qwfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 64,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "145.239.94.156:27500",
-		"status": "online",
-		"hostname": "145.239.94.156:27500",
-		"name": "zasadzka:27500",
-		"gametype": "qw",
-		"map": "aerowalk",
-		"numplayers": 0,
-		"maxplayers": 2,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 34,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.36",
-			"*z_ext": "511",
-			"*admin": "lolek <lolek@quake1.pl>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"needpass": "4",
-			"mode": "1on1",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "145.239.94.156:27501",
-		"status": "online",
-		"hostname": "145.239.94.156:27501",
-		"name": "zasadzka:27501",
-		"gametype": "qw",
-		"map": "aerowalk",
-		"numplayers": 0,
-		"maxplayers": 2,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 34,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.36",
-			"*z_ext": "511",
-			"*admin": "lolek <lolek@quake1.pl>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"needpass": "4",
-			"mode": "1on1",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*qvm": "so",
-			"*progs": "so",
-			"timelimit": "10",
-			"deathmatch": "3"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "145.239.94.156:28000",
-		"status": "online",
-		"hostname": "145.239.94.156:28000",
-		"name": "zasadzka Qtv",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 119,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "145.239.94.156:30000",
-		"status": "online",
-		"hostname": "145.239.94.156:30000",
-		"name": "zasadzka QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 28,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28508",
-		"status": "online",
-		"hostname": "130.242.114.28:28508",
-		"name": "QW.0F.SE KTX:28508",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 120,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881012"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28507",
-		"status": "online",
-		"hostname": "130.242.114.28:28507",
-		"name": "QW.0F.SE KTX:28507",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 118,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881012"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28509",
-		"status": "online",
-		"hostname": "130.242.114.28:28509",
-		"name": "QW.0F.SE KTX:28509",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 103,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881012"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28505",
-		"status": "online",
-		"hostname": "130.242.114.28:28505",
-		"name": "QW.0F.SE KTX:28505",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 91,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881012"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28506",
-		"status": "online",
-		"hostname": "130.242.114.28:28506",
-		"name": "QW.0F.SE KTX:28506",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 85,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881012"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "78.45.89.65:28503",
-		"status": "online",
-		"hostname": "78.45.89.65:28503",
-		"name": "qw.kirril.com:28503",
-		"gametype": "qw",
-		"map": "mvdsv-kg",
-		"numplayers": 0,
-		"maxplayers": 26,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 73,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.33",
-			"*z_ext": "511",
-			"timelimit": "20",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "cuky <cuky@quake.cz>",
-			"ktxver": "1.39",
-			"sv_antilag": "2",
-			"deathmatch": "3",
-			"status": "Standby",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "78.45.89.65:28502",
-		"status": "online",
-		"hostname": "78.45.89.65:28502",
-		"name": "qw.kirril.com:28502",
-		"gametype": "qw",
-		"map": "dm4",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 73,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.33",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "cuky <cuky@quake.cz>",
-			"ktxver": "1.39",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"status": "Standby",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.165.130.151:27500",
-		"status": "online",
-		"hostname": "95.165.130.151:27500",
-		"name": "qw2.ru - Moscow Server FFA",
-		"gametype": "qw",
-		"map": "spinev2",
-		"numplayers": 0,
-		"maxplayers": 10,
-		"numspectators": 0,
-		"maxspectators": 22,
-		"ping": 107,
-		"retries": 0,
-		"rules": {
-			"deathmatch": "3",
-			"watervis": "0",
-			"*version": "MVDSV 0.29",
-			"*z_ext": "235",
-			"*admin": "spazm@newmail.ru",
-			"vwep": "1",
-			"timelimit": "10",
-			"fraglimit": "100",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"pm_ktjump": "0",
-			"maxfps": "77",
-			"teamplay": "0",
-			"*progs": "dll",
-			"ktxver": "1.37-SVN",
-			"ktxbuild": "0",
-			"status": "Standby"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28510",
-		"status": "online",
-		"hostname": "130.242.114.28:28510",
-		"name": "QW.0F.SE KTX:28510",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 100,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881012"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "78.45.89.65:28501",
-		"status": "online",
-		"hostname": "78.45.89.65:28501",
-		"name": "qw.kirril.com:28501",
-		"gametype": "qw",
-		"map": "dm4",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 82,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.33",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "cuky <cuky@quake.cz>",
-			"ktxver": "1.39",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"status": "Standby",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28000",
-		"status": "online",
-		"hostname": "130.242.114.28:28000",
-		"name": "QW.0F.SE KTX Qtv",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 141,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "165.232.81.173:28504",
-		"status": "online",
-		"hostname": "165.232.81.173:28504",
-		"name": "Quakeworld.TV:28504",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 72,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.00-dev",
-			"*z_ext": "511",
-			"fpd": "206",
-			"sv_bigcoords": "1",
-			"*admin": "meag <meag-nospam@acm.org>",
-			"ktxver": "1.43-dev",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:30000",
-		"status": "online",
-		"hostname": "130.242.114.28:30000",
-		"name": "QW.0F.SE KTX QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 113,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "165.232.81.173:28502",
-		"status": "online",
-		"hostname": "165.232.81.173:28502",
-		"name": "Quakeworld.TV:28502",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 81,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.00-dev",
-			"*z_ext": "511",
-			"sv_bigcoords": "1",
-			"*admin": "meag <meag-nospam@acm.org>",
-			"ktxver": "1.43-dev",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "165.232.81.173:28503",
-		"status": "online",
-		"hostname": "165.232.81.173:28503",
-		"name": "Quakeworld.TV:28503",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 75,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.00-dev",
-			"*z_ext": "511",
-			"sv_bigcoords": "1",
-			"*admin": "meag <meag-nospam@acm.org>",
-			"ktxver": "1.43-dev",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"fpd": "206",
-			"teamplay": "2",
-			"mode": "2on2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28503",
-		"status": "online",
-		"hostname": "130.242.114.28:28503",
-		"name": "QW.0F.SE KTX:28503",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 113,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718874650"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28504",
-		"status": "online",
-		"hostname": "130.242.114.28:28504",
-		"name": "QW.0F.SE KTX:28504",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 81,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718881012"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28501",
-		"status": "online",
-		"hostname": "130.242.114.28:28501",
-		"name": "QW.0F.SE KTX:28501",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 71,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718867087"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "130.242.114.28:28502",
-		"status": "online",
-		"hostname": "130.242.114.28:28502",
-		"name": "QW.0F.SE KTX:28502",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 78,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "suom1 <suom1@irc.ax>",
-			"ktxver": "1.43",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"fpd": "206",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718903776"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.11.166.90:30000",
-		"status": "online",
-		"hostname": "185.11.166.90:30000",
-		"name": "RoT QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 82,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.11.166.90:28000",
-		"status": "online",
-		"hostname": "185.11.166.90:28000",
-		"name": "RoT Qtv",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 129,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.15-dev"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "51.210.10.181:28000",
-		"status": "online",
-		"hostname": "51.210.10.181:28000",
-		"name": "Silent Crescent QTV",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 64,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.166.161.185:27502",
-		"status": "online",
-		"hostname": "188.166.161.185:27502",
-		"name": "reDome Rocket Arena (beta)",
-		"gametype": "qw",
-		"map": "arena4",
-		"numplayers": 0,
-		"maxplayers": 10,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 48,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.31",
-			"*z_ext": "511",
-			"deathmatch": "1",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "xazqe @ http://discord.quake.world <xazqe@yahoo.se>",
-			"fraglimit": "10",
-			"ktxver": "1.37",
-			"status": "Standby",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.166.161.185:27500",
-		"status": "online",
-		"hostname": "188.166.161.185:27500",
-		"name": "reDome Small FFA",
-		"gametype": "qw",
-		"map": "bravado",
-		"numplayers": 0,
-		"maxplayers": 8,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 82,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.31",
-			"*z_ext": "511",
-			"*gamedir": "qw",
-			"*admin": "xazqe @ http://discord.quake.world <xazqe@yahoo.se>",
-			"ktxver": "1.37",
-			"sv_antilag": "2",
-			"deathmatch": "3",
-			"fpd": "142",
-			"status": "Standby",
-			"timelimit": "10",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "37.201.131.70:30000",
-		"status": "online",
-		"hostname": "37.201.131.70:30000",
-		"name": "slide1 QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 53,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "141.105.67.104:28501",
-		"status": "online",
-		"hostname": "141.105.67.104:28501",
-		"name": "Spider MSK Antilag:28501",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 109,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35-beta-antilag-r402",
-			"*z_ext": "511",
-			"*admin": "spider <quake@spider.vc>",
-			"ktxver": "1.41-beta-antilag-r402",
-			"sv_antilag": "1",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
 		"address": "51.210.10.181:28501",
 		"status": "online",
 		"hostname": "51.210.10.181:28501",
@@ -5031,7 +1961,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 42,
+		"ping": 51,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5056,58 +1986,20 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "37.201.131.70:28000",
+		"address": "37.201.131.70:30000",
 		"status": "online",
-		"hostname": "37.201.131.70:28000",
-		"name": "slide1 Qtv",
+		"hostname": "37.201.131.70:30000",
+		"name": "slide1 QWfwd",
 		"gametype": "",
 		"map": "?",
 		"numplayers": 0,
-		"maxplayers": 100,
+		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 80,
+		"ping": 57,
 		"retries": 0,
 		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "70.34.206.203:28501",
-		"status": "online",
-		"hostname": "70.34.206.203:28501",
-		"name": "qwctf.se:28501",
-		"gametype": "qw",
-		"map": "e2m2",
-		"numplayers": 0,
-		"maxplayers": 16,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 61,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "QuakeWorld CTF Discord <tag@discord>",
-			"ktxver": "1.43-dev",
-			"sv_antilag": "2",
-			"mode": "ctf",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"teamplay": "4",
-			"deathmatch": "3",
-			"watervis": "1",
-			"timelimit": "15",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718870361"
+			"*version": "qwfwd 1.2"
 		},
 		"players": [
 
@@ -5125,7 +2017,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 32,
-		"ping": 107,
+		"ping": 125,
 		"retries": 0,
 		"rules": {
 			"fraglimit": "0",
@@ -5144,242 +2036,6 @@
 			"ktxver": "1.37-SVN",
 			"ktxbuild": "0",
 			"status": "Standby"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "70.34.206.203:28502",
-		"status": "online",
-		"hostname": "70.34.206.203:28502",
-		"name": "qwctf.se:28502",
-		"gametype": "qw",
-		"map": "e2m2",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 63,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*admin": "QuakeWorld CTF Discord <tag@discord>",
-			"ktxver": "1.43-dev",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"fpd": "206",
-			"mode": "2on2",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718871895"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.165.130.151:27501",
-		"status": "online",
-		"hostname": "95.165.130.151:27501",
-		"name": "qw2.ru:27501 - Moscow Server #1",
-		"gametype": "qw",
-		"map": "dm3",
-		"numplayers": 0,
-		"maxplayers": 8,
-		"numspectators": 0,
-		"maxspectators": 32,
-		"ping": 110,
-		"retries": 0,
-		"rules": {
-			"fraglimit": "0",
-			"watervis": "0",
-			"*version": "MVDSV 0.29",
-			"*z_ext": "235",
-			"timelimit": "20",
-			"teamplay": "2",
-			"deathmatch": "1",
-			"*admin": "keyoldman@gmail.com",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"pm_ktjump": "1",
-			"maxfps": "77",
-			"*progs": "dll",
-			"ktxver": "1.37-SVN",
-			"ktxbuild": "0",
-			"status": "Standby"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.165.130.151:27502",
-		"status": "online",
-		"hostname": "95.165.130.151:27502",
-		"name": "qw2.ru:27502 - Moscow Server #2",
-		"gametype": "qw",
-		"map": "dm3",
-		"numplayers": 0,
-		"maxplayers": 8,
-		"numspectators": 0,
-		"maxspectators": 32,
-		"ping": 107,
-		"retries": 0,
-		"rules": {
-			"fraglimit": "0",
-			"watervis": "0",
-			"*version": "MVDSV 0.29",
-			"*z_ext": "235",
-			"timelimit": "20",
-			"teamplay": "2",
-			"deathmatch": "1",
-			"*admin": "spazm@newmail.ru",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"pm_ktjump": "1",
-			"maxfps": "77",
-			"*progs": "dll",
-			"ktxver": "1.37-SVN",
-			"ktxbuild": "0",
-			"status": "Standby"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.166.161.185:27501",
-		"status": "online",
-		"hostname": "188.166.161.185:27501",
-		"name": "reDome Large FFA",
-		"gametype": "qw",
-		"map": "death32c",
-		"numplayers": 0,
-		"maxplayers": 24,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 50,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.31",
-			"*z_ext": "511",
-			"*gamedir": "qw",
-			"*admin": "xazqe @ http://discord.quake.world <xazqe@yahoo.se>",
-			"ktxver": "1.37",
-			"sv_antilag": "2",
-			"deathmatch": "3",
-			"fpd": "142",
-			"status": "Standby",
-			"timelimit": "10",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "188.166.161.185:30000",
-		"status": "online",
-		"hostname": "188.166.161.185:30000",
-		"name": "reDome QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 46,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2-dev"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "70.34.206.203:28504",
-		"status": "online",
-		"hostname": "70.34.206.203:28504",
-		"name": "qwctf.se:28504",
-		"gametype": "qw",
-		"map": "e2m2",
-		"numplayers": 0,
-		"maxplayers": 16,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 62,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
-			"*z_ext": "511",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "QuakeWorld CTF Discord <tag@discord>",
-			"ktxver": "1.43-dev",
-			"sv_antilag": "2",
-			"teamplay": "4",
-			"deathmatch": "3",
-			"status": "Standby",
-			"mode": "ctf",
-			"watervis": "1",
-			"timelimit": "15",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718886687"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "212.193.49.233:27500",
-		"status": "online",
-		"hostname": "212.193.49.233:27500",
-		"name": "QWTF.NET Pick-up Team Fortress Server",
-		"gametype": "fortress",
-		"map": "ad_fort_b5",
-		"numplayers": 0,
-		"maxplayers": 2,
-		"numspectators": 0,
-		"maxspectators": 8,
-		"ping": 90,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"deathmatch": "3",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35-dev",
-			"*z_ext": "511",
-			"admin": "http://dc.qwtf.net",
-			"url": "http://qwtf.net",
-			"*gamedir": "fortress",
-			"teamplay": "1?TF2.7",
-			"fpd": "49920",
-			"pm_slidefix": "1",
-			"n": "1",
-			"score": "0:0",
-			"*progs": "48925",
-			"status": "Countdown"
 		},
 		"players": [
 
@@ -5397,7 +2053,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 79,
+		"ping": 46,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5434,7 +2090,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 91,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5471,7 +2127,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 74,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5498,42 +2154,6 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "217.197.83.154:28504",
-		"status": "online",
-		"hostname": "217.197.83.154:28504",
-		"name": "Das Pentagon Clanserver:28504",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 74,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "dago <janschulzpro@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
 		"address": "108.61.178.207:28000",
 		"status": "online",
 		"hostname": "108.61.178.207:28000",
@@ -5544,10 +2164,31 @@
 		"maxplayers": 1000,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 104,
+		"ping": 134,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "108.61.178.207:30000",
+		"status": "online",
+		"hostname": "108.61.178.207:30000",
+		"name": "de.quake.world QWfwd",
+		"gametype": "",
+		"map": "?",
+		"numplayers": 0,
+		"maxplayers": 128,
+		"numspectators": 0,
+		"maxspectators": 0,
+		"ping": 41,
+		"retries": 0,
+		"rules": {
+			"*version": "qwfwd 1.2"
 		},
 		"players": [
 
@@ -5565,7 +2206,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 55,
+		"ping": 40,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5602,7 +2243,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 63,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5639,7 +2280,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 50,
+		"ping": 39,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5676,7 +2317,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 73,
+		"ping": 40,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5713,7 +2354,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 69,
+		"ping": 40,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5740,6 +2381,27 @@
 	},
 	{
 		"protocol": "qws",
+		"address": "217.197.83.154:28000",
+		"status": "online",
+		"hostname": "217.197.83.154:28000",
+		"name": "Das Pentagon Clanserver Qtv",
+		"gametype": "",
+		"map": "?",
+		"numplayers": 0,
+		"maxplayers": 100,
+		"numspectators": 0,
+		"maxspectators": 0,
+		"ping": 144,
+		"retries": 0,
+		"rules": {
+			"*version": "QTV 1.14"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
 		"address": "139.162.245.4:28501",
 		"status": "online",
 		"hostname": "139.162.245.4:28501",
@@ -5750,7 +2412,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 72,
+		"ping": 76,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5774,6 +2436,64 @@
 	},
 	{
 		"protocol": "qws",
+		"address": "217.197.83.154:30000",
+		"status": "online",
+		"hostname": "217.197.83.154:30000",
+		"name": "Das Pentagon Clanserver QWfwd",
+		"gametype": "",
+		"map": "?",
+		"numplayers": 0,
+		"maxplayers": 128,
+		"numspectators": 0,
+		"maxspectators": 0,
+		"ping": 54,
+		"retries": 0,
+		"rules": {
+			"*version": "qwfwd 1.2"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "185.11.166.90:28503",
+		"status": "online",
+		"hostname": "185.11.166.90:28503",
+		"name": "clanrot.org:28503 - Portugal #3 pvt",
+		"gametype": "qw",
+		"map": "dm6",
+		"numplayers": 0,
+		"maxplayers": 4,
+		"numspectators": 0,
+		"maxspectators": 6,
+		"ping": 101,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 1.01-dev",
+			"*z_ext": "511",
+			"teamplay": "2",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"*admin": "RoT <server@clanrot.org>",
+			"ktxver": "1.44-dev",
+			"sv_antilag": "2",
+			"timelimit": "10",
+			"deathmatch": "3",
+			"mode": "2on2",
+			"status": "Standby",
+			"needpass": "3",
+			"*qvm": "so",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
 		"address": "70.34.206.203:28503",
 		"status": "online",
 		"hostname": "70.34.206.203:28503",
@@ -5784,7 +2504,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 135,
+		"ping": 63,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5812,57 +2532,35 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "217.197.83.154:28000",
+		"address": "217.197.83.154:28503",
 		"status": "online",
-		"hostname": "217.197.83.154:28000",
-		"name": "Das Pentagon Clanserver Qtv",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 100,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 133,
-		"retries": 0,
-		"rules": {
-			"*version": "QTV 1.14"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "185.11.166.90:28502",
-		"status": "online",
-		"hostname": "185.11.166.90:28502",
-		"name": "clanrot.org:28502 - Portugal #2",
+		"hostname": "217.197.83.154:28503",
+		"name": "Das Pentagon Clanserver:28503",
 		"gametype": "qw",
-		"map": "dm2",
+		"map": "maphub_v1",
 		"numplayers": 0,
 		"maxplayers": 4,
 		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 88,
+		"maxspectators": 12,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
+			"*version": "MVDSV 0.35",
 			"*z_ext": "511",
 			"teamplay": "2",
 			"*gamedir": "qw",
 			"fpd": "206",
-			"*admin": "RoT <server@clanrot.org>",
-			"ktxver": "1.44-dev",
+			"*admin": "dago <janschulzpro@gmail.com>",
+			"ktxver": "1.42",
 			"sv_antilag": "2",
 			"timelimit": "10",
 			"deathmatch": "3",
 			"mode": "2on2",
 			"status": "Standby",
 			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1718863172"
+			"*progs": "so"
 		},
 		"players": [
 
@@ -5870,34 +2568,69 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "185.11.166.90:28503",
+		"address": "217.197.83.154:28504",
 		"status": "online",
-		"hostname": "185.11.166.90:28503",
-		"name": "clanrot.org:28503 - Portugal #3 pvt",
+		"hostname": "217.197.83.154:28504",
+		"name": "Das Pentagon Clanserver:28504",
 		"gametype": "qw",
-		"map": "dm6",
+		"map": "maphub_v1",
 		"numplayers": 0,
 		"maxplayers": 4,
 		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 106,
+		"maxspectators": 12,
+		"ping": 57,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
+			"*version": "MVDSV 0.35",
 			"*z_ext": "511",
 			"teamplay": "2",
 			"*gamedir": "qw",
 			"fpd": "206",
-			"*admin": "RoT <server@clanrot.org>",
-			"ktxver": "1.44-dev",
+			"*admin": "dago <janschulzpro@gmail.com>",
+			"ktxver": "1.42",
 			"sv_antilag": "2",
 			"timelimit": "10",
 			"deathmatch": "3",
 			"mode": "2on2",
 			"status": "Standby",
-			"needpass": "3",
+			"*qvm": "so",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "217.197.83.154:28501",
+		"status": "online",
+		"hostname": "217.197.83.154:28501",
+		"name": "Das Pentagon Clanserver:28501",
+		"gametype": "qw",
+		"map": "maphub_v1",
+		"numplayers": 0,
+		"maxplayers": 4,
+		"numspectators": 0,
+		"maxspectators": 12,
+		"ping": 61,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 0.35",
+			"*z_ext": "511",
+			"*admin": "dago <janschulzpro@gmail.com>",
+			"ktxver": "1.42",
+			"sv_antilag": "2",
+			"status": "Standby",
+			"teamplay": "2",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"timelimit": "10",
+			"deathmatch": "3",
+			"mode": "2on2",
 			"*qvm": "so",
 			"*progs": "so"
 		},
@@ -5917,7 +2650,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 66,
+		"ping": 51,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5934,99 +2667,6 @@
 			"*gamedir": "qw",
 			"timelimit": "10",
 			"deathmatch": "3",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "217.197.83.154:28503",
-		"status": "online",
-		"hostname": "217.197.83.154:28503",
-		"name": "Das Pentagon Clanserver:28503",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 77,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "dago <janschulzpro@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "217.197.83.154:30000",
-		"status": "online",
-		"hostname": "217.197.83.154:30000",
-		"name": "Das Pentagon Clanserver QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 66,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "217.197.83.154:28501",
-		"status": "online",
-		"hostname": "217.197.83.154:28501",
-		"name": "Das Pentagon Clanserver:28501",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 72,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35",
-			"*z_ext": "511",
-			"*admin": "dago <janschulzpro@gmail.com>",
-			"ktxver": "1.42",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
 			"*qvm": "so",
 			"*progs": "so"
 		},
@@ -6046,7 +2686,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 106,
+		"ping": 160,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -6067,7 +2707,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 60,
+		"ping": 65,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6104,7 +2744,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 62,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6141,7 +2781,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 61,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6177,7 +2817,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 66,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6213,7 +2853,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 60,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6249,7 +2889,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 57,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6285,7 +2925,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 65,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6321,7 +2961,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 38,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6357,7 +2997,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 38,
+		"ping": 46,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6393,7 +3033,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 137,
+		"ping": 136,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -6414,7 +3054,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 51,
+		"ping": 40,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6451,7 +3091,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 41,
+		"ping": 46,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6488,7 +3128,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 63,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6525,7 +3165,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 53,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6562,7 +3202,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 94,
+		"ping": 92,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -6583,7 +3223,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 54,
+		"ping": 74,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -6604,7 +3244,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 90,
+		"ping": 31,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6639,7 +3279,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 102,
+		"ping": 26,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6674,7 +3314,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 86,
+		"ping": 37,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6709,7 +3349,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 93,
+		"ping": 37,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6744,7 +3384,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 92,
+		"ping": 53,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6769,6 +3409,42 @@
 	},
 	{
 		"protocol": "qws",
+		"address": "178.79.135.210:28502",
+		"status": "online",
+		"hostname": "178.79.135.210:28502",
+		"name": "anyother map test:28502",
+		"gametype": "qw",
+		"map": "maphub_v1",
+		"numplayers": 0,
+		"maxplayers": 4,
+		"numspectators": 0,
+		"maxspectators": 12,
+		"ping": 181,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 0.36-beta-antilag-r402",
+			"*z_ext": "511",
+			"teamplay": "2",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"*admin": "anyother <none>",
+			"ktxver": "1.43-dev-r402",
+			"sv_antilag": "1",
+			"timelimit": "10",
+			"deathmatch": "3",
+			"mode": "2on2",
+			"status": "Standby",
+			"*qvm": "so",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
 		"address": "178.79.135.210:28501",
 		"status": "online",
 		"hostname": "178.79.135.210:28501",
@@ -6779,7 +3455,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 111,
+		"ping": 83,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6804,38 +3480,17 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "178.79.135.210:30000",
+		"address": "178.79.135.210:28503",
 		"status": "online",
-		"hostname": "178.79.135.210:30000",
-		"name": "anyother map test QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 100,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "178.79.135.210:28502",
-		"status": "online",
-		"hostname": "178.79.135.210:28502",
-		"name": "anyother map test:28502",
+		"hostname": "178.79.135.210:28503",
+		"name": "anyother map test:28503",
 		"gametype": "qw",
 		"map": "maphub_v1",
 		"numplayers": 0,
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 108,
+		"ping": 84,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6871,7 +3526,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 86,
+		"ping": 29,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6906,7 +3561,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 165,
+		"ping": 79,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -6927,7 +3582,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 59,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6962,7 +3617,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 64,
+		"ping": 37,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6996,7 +3651,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 55,
+		"ping": 42,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7031,7 +3686,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 75,
+		"ping": 38,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7065,7 +3720,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 376,
+		"ping": 352,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7102,7 +3757,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 90,
+		"ping": 51,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7136,7 +3791,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 101,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7170,7 +3825,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 57,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7206,7 +3861,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 73,
+		"ping": 43,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7232,10 +3887,80 @@
 	},
 	{
 		"protocol": "qws",
+		"address": "194.38.96.52:28502",
+		"status": "online",
+		"hostname": "194.38.96.52:28502",
+		"name": "C3 Verseny:28502",
+		"gametype": "qw",
+		"map": "maphub_v1",
+		"numplayers": 0,
+		"maxplayers": 4,
+		"numspectators": 0,
+		"maxspectators": 6,
+		"ping": 55,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 0.35-dev",
+			"*z_ext": "511",
+			"teamplay": "2",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"*admin": "root <pisti@c3.hu>",
+			"ktxver": "1.41-dev",
+			"sv_antilag": "2",
+			"timelimit": "10",
+			"deathmatch": "3",
+			"status": "Standby",
+			"*qvm": "so",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
 		"address": "194.38.96.52:28501",
 		"status": "online",
 		"hostname": "194.38.96.52:28501",
 		"name": "C3 Verseny:28501",
+		"gametype": "qw",
+		"map": "maphub_v1",
+		"numplayers": 0,
+		"maxplayers": 4,
+		"numspectators": 0,
+		"maxspectators": 6,
+		"ping": 56,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 0.35-dev",
+			"*z_ext": "511",
+			"teamplay": "2",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"*admin": "root <pisti@c3.hu>",
+			"ktxver": "1.41-dev",
+			"sv_antilag": "2",
+			"timelimit": "10",
+			"deathmatch": "3",
+			"status": "Standby",
+			"*qvm": "so",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "194.38.96.52:28503",
+		"status": "online",
+		"hostname": "194.38.96.52:28503",
+		"name": "C3 Verseny:28503",
 		"gametype": "qw",
 		"map": "maphub_v1",
 		"numplayers": 0,
@@ -7267,97 +3992,6 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "194.38.96.52:30000",
-		"status": "online",
-		"hostname": "194.38.96.52:30000",
-		"name": "C3 Verseny Quake Server QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 58,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "194.38.96.52:28502",
-		"status": "online",
-		"hostname": "194.38.96.52:28502",
-		"name": "C3 Verseny:28502",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 57,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35-dev",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "root <pisti@c3.hu>",
-			"ktxver": "1.41-dev",
-			"sv_antilag": "2",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "128.199.52.100:28504",
-		"status": "online",
-		"hostname": "128.199.52.100:28504",
-		"name": "BUDZOR QUAKE SERVER:28504",
-		"gametype": "qw",
-		"map": "dm4",
-		"numplayers": 0,
-		"maxplayers": 26,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 70,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.31-dev",
-			"*z_ext": "511",
-			"*admin": "root <yehudigrudnia@gmail.com>",
-			"ktxver": "1.37-dev",
-			"sv_antilag": "2",
-			"needpass": "1",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"deathmatch": "3",
-			"timelimit": "10",
-			"fraglimit": "10",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
 		"address": "194.38.96.52:27500",
 		"status": "online",
 		"hostname": "194.38.96.52:27500",
@@ -7368,7 +4002,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 66,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7393,33 +4027,20 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "80.241.209.47:28501",
+		"address": "194.38.96.52:30000",
 		"status": "online",
-		"hostname": "80.241.209.47:28501",
-		"name": "Cargo Bay 5:28501",
-		"gametype": "qw",
-		"map": "dm4",
+		"hostname": "194.38.96.52:30000",
+		"name": "C3 Verseny Quake Server QWfwd",
+		"gametype": "",
+		"map": "?",
 		"numplayers": 0,
-		"maxplayers": 26,
+		"maxplayers": 128,
 		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 52,
+		"maxspectators": 0,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.33",
-			"*z_ext": "511",
-			"*admin": "engineartist <miika.vihersaari@gmail.com>",
-			"ktxver": "1.39",
-			"sv_antilag": "2",
-			"status": "Standby",
-			"fpd": "206",
-			"*gamedir": "qw",
-			"deathmatch": "3",
-			"timelimit": "8",
-			"fraglimit": "50",
-			"*progs": "so"
+			"*version": "qwfwd 1.2"
 		},
 		"players": [
 
@@ -7463,34 +4084,36 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "194.38.96.52:28503",
+		"address": "185.11.166.90:28502",
 		"status": "online",
-		"hostname": "194.38.96.52:28503",
-		"name": "C3 Verseny:28503",
+		"hostname": "185.11.166.90:28502",
+		"name": "clanrot.org:28502 - Portugal #2",
 		"gametype": "qw",
-		"map": "maphub_v1",
+		"map": "dm2",
 		"numplayers": 0,
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 60,
+		"ping": 89,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
-			"*version": "MVDSV 0.35-dev",
+			"*version": "MVDSV 1.01-dev",
 			"*z_ext": "511",
 			"teamplay": "2",
 			"*gamedir": "qw",
 			"fpd": "206",
-			"*admin": "root <pisti@c3.hu>",
-			"ktxver": "1.41-dev",
+			"*admin": "RoT <server@clanrot.org>",
+			"ktxver": "1.44-dev",
 			"sv_antilag": "2",
 			"timelimit": "10",
 			"deathmatch": "3",
+			"mode": "2on2",
 			"status": "Standby",
 			"*qvm": "so",
-			"*progs": "so"
+			"*progs": "so",
+			"epoch": "1718863172"
 		},
 		"players": [
 
@@ -7508,7 +4131,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 56,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7533,6 +4156,94 @@
 	},
 	{
 		"protocol": "qws",
+		"address": "80.241.209.47:28501",
+		"status": "online",
+		"hostname": "80.241.209.47:28501",
+		"name": "Cargo Bay 5:28501",
+		"gametype": "qw",
+		"map": "dm4",
+		"numplayers": 0,
+		"maxplayers": 26,
+		"numspectators": 0,
+		"maxspectators": 6,
+		"ping": 47,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 0.33",
+			"*z_ext": "511",
+			"*admin": "engineartist <miika.vihersaari@gmail.com>",
+			"ktxver": "1.39",
+			"sv_antilag": "2",
+			"status": "Standby",
+			"fpd": "206",
+			"*gamedir": "qw",
+			"deathmatch": "3",
+			"timelimit": "8",
+			"fraglimit": "50",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "193.227.134.114:27503",
+		"status": "online",
+		"hostname": "193.227.134.114:27503",
+		"name": "BattleAxe TF training server",
+		"gametype": "fortress",
+		"map": "bastion",
+		"numplayers": 0,
+		"maxplayers": 24,
+		"numspectators": 0,
+		"maxspectators": 8,
+		"ping": 195,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"deathmatch": "3",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 1.01-dev",
+			"*z_ext": "511",
+			"teamplay": "1?TF",
+			"pm_slidefix": "1",
+			"*gamedir": "fortress",
+			"fpd": "49920",
+			"n": "4",
+			"score": "0:0",
+			"*progs": "44394",
+			"status": "no timelimit"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "89.66.140.31:30000",
+		"status": "online",
+		"hostname": "89.66.140.31:30000",
+		"name": "bagno.hlds.pl Experimental QWfwd",
+		"gametype": "",
+		"map": "?",
+		"numplayers": 0,
+		"maxplayers": 128,
+		"numspectators": 0,
+		"maxspectators": 0,
+		"ping": 94,
+		"retries": 0,
+		"rules": {
+			"*version": "qwfwd 1.2"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
 		"address": "89.66.140.31:28501",
 		"status": "online",
 		"hostname": "89.66.140.31:28501",
@@ -7543,7 +4254,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 95,
+		"ping": 84,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7569,98 +4280,6 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "178.79.135.210:28503",
-		"status": "online",
-		"hostname": "178.79.135.210:28503",
-		"name": "anyother map test:28503",
-		"gametype": "qw",
-		"map": "maphub_v1",
-		"numplayers": 0,
-		"maxplayers": 4,
-		"numspectators": 0,
-		"maxspectators": 12,
-		"ping": 112,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.36-beta-antilag-r402",
-			"*z_ext": "511",
-			"teamplay": "2",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"*admin": "anyother <none>",
-			"ktxver": "1.43-dev-r402",
-			"sv_antilag": "1",
-			"timelimit": "10",
-			"deathmatch": "3",
-			"mode": "2on2",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "89.66.140.31:30000",
-		"status": "online",
-		"hostname": "89.66.140.31:30000",
-		"name": "bagno.hlds.pl Experimental QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 0,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 121,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "128.199.52.100:28502",
-		"status": "online",
-		"hostname": "128.199.52.100:28502",
-		"name": "BUDZOR QUAKE SERVER:28502",
-		"gametype": "qw",
-		"map": "dm4",
-		"numplayers": 0,
-		"maxplayers": 26,
-		"numspectators": 0,
-		"maxspectators": 6,
-		"ping": 86,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 0.31-dev",
-			"*z_ext": "511",
-			"*admin": "root <yehudigrudnia@gmail.com>",
-			"ktxver": "1.37-dev",
-			"sv_antilag": "2",
-			"needpass": "1",
-			"status": "Standby",
-			"*gamedir": "qw",
-			"fpd": "206",
-			"deathmatch": "3",
-			"timelimit": "10",
-			"fraglimit": "10",
-			"*progs": "so"
-		},
-		"players": [
-
-		]
-	},
-	{
-		"protocol": "qws",
 		"address": "128.199.52.100:28503",
 		"status": "online",
 		"hostname": "128.199.52.100:28503",
@@ -7671,7 +4290,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 76,
+		"ping": 66,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7696,32 +4315,34 @@
 	},
 	{
 		"protocol": "qws",
-		"address": "193.227.134.114:27503",
+		"address": "128.199.52.100:28504",
 		"status": "online",
-		"hostname": "193.227.134.114:27503",
-		"name": "BattleAxe TF training server",
-		"gametype": "fortress",
-		"map": "bastion",
+		"hostname": "128.199.52.100:28504",
+		"name": "BUDZOR QUAKE SERVER:28504",
+		"gametype": "qw",
+		"map": "dm4",
 		"numplayers": 0,
-		"maxplayers": 24,
+		"maxplayers": 26,
 		"numspectators": 0,
-		"maxspectators": 8,
-		"ping": 145,
+		"maxspectators": 6,
+		"ping": 88,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
-			"deathmatch": "3",
 			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev",
+			"*version": "MVDSV 0.31-dev",
 			"*z_ext": "511",
-			"teamplay": "1?TF",
-			"pm_slidefix": "1",
-			"*gamedir": "fortress",
-			"fpd": "49920",
-			"n": "4",
-			"score": "0:0",
-			"*progs": "44394",
-			"status": "no timelimit"
+			"*admin": "root <yehudigrudnia@gmail.com>",
+			"ktxver": "1.37-dev",
+			"sv_antilag": "2",
+			"needpass": "1",
+			"status": "Standby",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"deathmatch": "3",
+			"timelimit": "10",
+			"fraglimit": "10",
+			"*progs": "so"
 		},
 		"players": [
 
@@ -7739,7 +4360,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 75,
+		"ping": 84,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7756,6 +4377,41 @@
 			"fraglimit": "10",
 			"status": "Standby",
 			"needpass": "1",
+			"*progs": "so"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "128.199.52.100:28502",
+		"status": "online",
+		"hostname": "128.199.52.100:28502",
+		"name": "BUDZOR QUAKE SERVER:28502",
+		"gametype": "qw",
+		"map": "dm4",
+		"numplayers": 0,
+		"maxplayers": 26,
+		"numspectators": 0,
+		"maxspectators": 6,
+		"ping": 74,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 0.31-dev",
+			"*z_ext": "511",
+			"*admin": "root <yehudigrudnia@gmail.com>",
+			"ktxver": "1.37-dev",
+			"sv_antilag": "2",
+			"needpass": "1",
+			"status": "Standby",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"deathmatch": "3",
+			"timelimit": "10",
+			"fraglimit": "10",
 			"*progs": "so"
 		},
 		"players": [
@@ -7774,7 +4430,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 149,
+		"ping": 118,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7809,7 +4465,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 127,
+		"ping": 48,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7845,8 +4501,8 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 168,
-		"retries": 0,
+		"ping": 1702,
+		"retries": 2,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -7880,7 +4536,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 142,
+		"ping": 52,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7916,7 +4572,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 132,
+		"ping": 48,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7952,7 +4608,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 120,
+		"ping": 102,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7987,7 +4643,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 130,
+		"ping": 173,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8022,7 +4678,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 116,
+		"ping": 170,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8057,7 +4713,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 198,
+		"ping": 81,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8092,7 +4748,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 134,
+		"ping": 93,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8127,7 +4783,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 168,
+		"ping": 143,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -8148,7 +4804,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 180,
+		"ping": 86,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -8195,7 +4851,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 165,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8216,7 +4872,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 179,
+		"ping": 77,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8237,7 +4893,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 185,
+		"ping": 76,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -8283,7 +4939,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 156,
+		"ping": 44,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8304,7 +4960,7 @@
 		"maxplayers": 10,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 150,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8339,7 +4995,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 161,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8376,7 +5032,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 168,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8413,7 +5069,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 102,
+		"ping": 74,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8434,7 +5090,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 95,
+		"ping": 66,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8455,7 +5111,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 182,
+		"ping": 242,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.12-rc1"
@@ -8476,7 +5132,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 70,
+		"ping": 46,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8510,7 +5166,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 139,
+		"ping": 130,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -8531,7 +5187,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 71,
+		"ping": 69,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8567,7 +5223,7 @@
 		"maxplayers": 1000,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 188,
+		"ping": 168,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -8588,7 +5244,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 97,
+		"ping": 164,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8609,7 +5265,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 124,
+		"ping": 69,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8645,7 +5301,7 @@
 		"maxplayers": 1000,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 108,
+		"ping": 196,
 		"retries": 0,
 		"rules": {
 			"*version": "QTVGO 1.1"
@@ -8666,7 +5322,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 153,
+		"ping": 126,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8701,7 +5357,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 132,
+		"ping": 92,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.12-rc1"
@@ -8722,7 +5378,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 107,
+		"ping": 182,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8757,7 +5413,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 120,
+		"ping": 187,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8792,7 +5448,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 105,
+		"ping": 82,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8827,7 +5483,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 83,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8848,7 +5504,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 112,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8869,7 +5525,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 109,
+		"ping": 73,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8904,7 +5560,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 55,
+		"ping": 161,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8925,7 +5581,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 194,
+		"ping": 230,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -8946,7 +5602,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 59,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8982,7 +5638,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 64,
+		"ping": 77,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9018,7 +5674,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 70,
+		"ping": 79,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9054,7 +5710,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 44,
+		"ping": 43,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9090,7 +5746,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 138,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9126,7 +5782,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 57,
+		"ping": 49,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9162,7 +5818,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 61,
+		"ping": 181,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9198,7 +5854,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 154,
+		"ping": 177,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9234,7 +5890,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 60,
+		"ping": 167,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9271,7 +5927,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 56,
+		"ping": 65,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9306,7 +5962,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 113,
+		"ping": 66,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9343,7 +5999,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 62,
+		"ping": 61,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9378,7 +6034,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 100,
+		"ping": 81,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9413,7 +6069,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 66,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -9434,7 +6090,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 69,
+		"ping": 76,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9470,7 +6126,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 59,
+		"ping": 167,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9507,7 +6163,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 95,
+		"ping": 147,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -9528,7 +6184,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 199,
+		"ping": 86,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -9549,7 +6205,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 208,
+		"ping": 91,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "1",
@@ -9587,7 +6243,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 190,
+		"ping": 94,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -9633,7 +6289,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 217,
+		"ping": 87,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9667,7 +6323,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 219,
+		"ping": 111,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9702,7 +6358,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 164,
+		"ping": 81,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -9749,7 +6405,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 161,
+		"ping": 91,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -9795,7 +6451,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 184,
+		"ping": 84,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -9816,7 +6472,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 174,
+		"ping": 83,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -9862,7 +6518,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 115,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9896,7 +6552,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 100,
+		"ping": 40,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -9917,7 +6573,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 289,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -9938,7 +6594,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 50,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9951,12 +6607,12 @@
 			"sv_antilag": "2",
 			"status": "Standby",
 			"teamplay": "2",
-			"*gamedir": "qw",
-			"timelimit": "10",
-			"deathmatch": "3",
 			"mode": "2on2",
 			"*qvm": "so",
-			"*progs": "so"
+			"*progs": "so",
+			"*gamedir": "qw",
+			"timelimit": "10",
+			"deathmatch": "3"
 		},
 		"players": [
 
@@ -9974,7 +6630,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 110,
+		"ping": 103,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -9995,7 +6651,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 177,
+		"ping": 85,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -10029,7 +6685,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 171,
+		"ping": 84,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -10063,7 +6719,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 161,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -10084,7 +6740,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 157,
+		"ping": 88,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
