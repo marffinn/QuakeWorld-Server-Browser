@@ -11,20 +11,25 @@
     />
   </head>
 
-  <body class="bg-light">
-    <div class="top_bar">
+  <body class="bg-light" style="padding-top: 5px;">
+
+     <!-- MODAL  -->
+     <div class="modal_container">
+      <div class="modal_win"></div>
+    </div>
+    <!-- END OF MODAL -->
+
       <div class="win_buttons">
         <!-- <div class="win_maximize"></div> -->
         <div class="win_close"></div>
         <div class="win_minimize"></div>
       </div>
-    </div>
 
     <!-- root element -->
     <root class="bg-light">
       <div
         class="container-fluid sticky-top bg-light"
-        style="margin-top: 0; margin-bottom: 0.6rem"
+        style="margin-top: 0; margin-bottom: 0.8rem; margin-top: .8rem;"
       >
         <button
           type="button"
@@ -75,8 +80,10 @@
         </table>
       </div>
     </div>
+
+   
+
     <!-- scripts included -->
     <script src="./renderer.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

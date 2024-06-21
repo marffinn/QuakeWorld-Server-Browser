@@ -114,5 +114,6 @@ $(".btn_refresh_servers").on("click", readServers);
 
 $("body").on("click", ".appServerList tr", function (e) {
   e.preventDefault();
+  console.log($(this).attr("href"))
 });
 onAppLoad();
