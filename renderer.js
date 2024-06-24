@@ -1,12 +1,12 @@
 const $ = require("jquery");
 const fs = require("fs");
-const path = require("path");
 const { spawn, exec } = require("child_process");
 const { ipcRenderer } = require("electron");
 const { webContents } = require("electron/main");
 const { webFrame } = require("electron/renderer");
 const { log } = require("console");
 
+const QSTAT_PATH = require("path").join(__dirname, "assets/qstat.exe");
 let progressBar = $(".progress_bar_percentage");
 
 let updateFromMaster = () => {
@@ -114,7 +114,16 @@ $(".btn_refresh_servers").on("click", readServers);
 
 $("body").on("click", ".appServerList tr", function (e) {
   e.preventDefault();
-  let oneServerAddress = $(this).attr("href")
-  
-});
+  let oneServerAddress = $(this).attr("href");
+  exec(`${QSTAT_PATH} -qws ${oneServerAddress} -nh -P -R -sort F -noconsole -json`, (err, stdout) => {
+    if (err) { console.error(err) }
+    let outInfo = JSON.parse(stdout)[0]
+    
+    let sv_name = outInfo.name;
+    let sv_address = outInfo.address;
+    let sv_map = outInfo.map;
+    
+  })
+})
+
 onAppLoad();
