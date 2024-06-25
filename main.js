@@ -6,8 +6,8 @@ let mainWindow;
 
 const createWindow = () => {
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 500,
+    width: 1200,
+    height: 800,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
@@ -15,9 +15,7 @@ const createWindow = () => {
     },
     autoHideMenuBar: true,
   });
-
   mainWindow.loadFile("index.html");
-  mainWindow.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {

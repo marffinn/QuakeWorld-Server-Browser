@@ -1,83 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SB</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-  </head>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>SB</title>
+      <link rel="stylesheet" href="assets/style.css" />
+      <link
+         rel="stylesheet"
+         href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      />
+   </head>
 
-  <body class="bg-light" style="padding-top: 5px;">
-
-     <!-- MODAL  -->
-     <div class="modal_container">
-      <div class="modal_win"></div>
-    </div>
-    <!-- END OF MODAL -->
-
-    <!-- root element -->
-    <root class="bg-light">
-      <div
-        class="container-fluid sticky-top bg-light"
-        style="margin-top: 0; margin-bottom: 0.8rem; margin-top: .8rem;"
-      >
-        <button
-          type="button"
-          class="btn_update_masters btn btn-primary btn-warning text-uppercase"
-          style="
-            --bs-btn-padding-y: 0.2rem;
-            --bs-btn-padding-x: 1rem;
-            --bs-btn-font-size: 0.75rem;
-          "
-        >
-          Update master server
-        </button>
-        <button
-          type="button"
-          class="btn_refresh_servers btn btn-primary text-uppercase"
-          style="
-            --bs-btn-padding-y: 0.2rem;
-            --bs-btn-padding-x: 1rem;
-            --bs-btn-font-size: 0.75rem;
-          "
-        >
-          Refresh
-        </button>
+   <body class="bg-light" style="padding-top: 5px">
+      <!-- MODAL  -->
+      <div class="modal_container">
+         <div class="modal_win"></div>
       </div>
+      <!-- END OF MODAL -->
 
-      <p class="progress_bar_percentage"><b class="progress_text"></b></p>
-    </root>
-    <!-- end of root -->
+      <!-- root element -->
+      <root>
+         <div
+            class="container-fluid sticky-top"
+            style="margin-top: 0; margin-bottom: 0.8rem; margin-top: 0.8rem"
+         >
+            <button
+               type="button"
+               class="btn_update_masters btn btn-primary btn-warning text-uppercase"
+               style="
+                  --bs-btn-padding-y: 0.2rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 0.75rem;
+                  -webkit-app-region: no-drag;
+               "
+            >
+               Update master server
+            </button>
+            <button
+               type="button"
+               class="btn_refresh_servers btn btn-primary text-uppercase"
+               style="
+                  --bs-btn-padding-y: 0.2rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 0.75rem;
+                  -webkit-app-region: no-drag;
+               "
+            >
+               Refresh
+            </button>
+         </div>
 
-    <div class="table_container">
-      <div
-        class="bg-light overflow-y-auto"
-        style="margin: 0; padding-bottom: 10px"
-      >
-        <table
-          class="table table-hover table-sm table-striped table-bordered"
-          style="margin-bottom: 0"
-        >
-          <thead>
-            <tr>
-              <th scope="col">Server name</th>
-              <th scope="col">Ping</th>
-              <th scope="col">Map</th>
-              <th scope="col">Players</th>
-            </tr>
-          </thead>
-          <tbody class="appServerList table-group-divider"></tbody>
-        </table>
-      </div>
-    </div>
+         <div class="appServerList"></div>
 
-   
+         <p class="progress_bar_percentage"><b class="progress_text"></b></p>
+      </root>
+      <!-- end of root -->
 
-    <!-- scripts included -->
-    <script src="./renderer.js"></script>
-  </body>
+      
+
+      <!-- scripts included -->
+      <script src="./renderer.js"></script>
+   </body>
 </html>
