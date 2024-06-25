@@ -6,19 +6,16 @@ let mainWindow;
 
 const createWindow = () => {
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 500,
-    frame: false,
+    width: 1200,
+    height: 800,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
-      preload: path.join(__dirname, "preload.js"),
+      preload: path.join(__dirname, "assets/preload.js"),
     },
     autoHideMenuBar: true,
   });
-
   mainWindow.loadFile("index.html");
-  mainWindow.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {
@@ -30,10 +27,11 @@ app.whenReady().then(() => {
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
-ipcMain.on("close-me", (evt, arg) => {
-  app.quit();
-});
 
-ipcMain.on("minimize-me", (evt, arg) => {
-  mainWindow.minimize();
-});
+// ipcMain.on("close-me", (evt, arg) => {
+//   app.quit();
+// });
+
+// ipcMain.on("minimize-me", (evt, arg) => {
+//   mainWindow.minimize();
+// });

@@ -90,27 +90,10 @@ let readServers = () => {
   });
 };
 
-let onAppLoad = () => {
-  let rawdata = fs.readFileSync(`assets/cacheservers.json`);
-  let serverList = JSON.parse(rawdata);
-  for (let s in serverList) {
-    if (serverList[s].map === undefined || serverList[s].map === "?") continue;
-    else {
-      let oneServerPrepare = `<tr href="${serverList[s].address}" data-name="${serverList[s].name}" data-ping="${serverList[s].ping}" data-playerno="${serverList[s].numplayers}">
-                      <th class="serverName text-truncate">${serverList[s].name}</th>
-                      <th class="serverPing">${serverList[s].ping}</th>
-                      <th class="serverMap">${serverList[s].map}</th>
-                      <th class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</th>
-                  </tr>`;
-      $(".appServerList").append(oneServerPrepare);
-    }
-  }
-};
-
 $(".btn_update_masters").on("click", updateFromMaster);
 $(".btn_refresh_servers").on("click", readServers);
 
-$("body").on("click", ".appServerList tr", function (e) {
+$("body").on("click", ".server-card", function (e) {
   e.preventDefault();
   let oneServerAddress = $(this).attr("href");
   exec(
@@ -125,10 +108,32 @@ $("body").on("click", ".appServerList tr", function (e) {
       let sv_address = outInfo.address;
       let sv_map = outInfo.map;
 
-      $(".modal_container").show();
-      $(".modal_win").html('<img src="assets/mapshots/' + sv_map + '.jpg" />');
+      // $(".modal_container").show();
+      // $(".modal_win").html('<img src="assets/mapshots/' + sv_map + '.jpg" />');
     }
   );
 });
+
+
+let onAppLoad = () => {
+  let rawdata = fs.readFileSync(`assets/cacheservers.json`);
+  let serverList = JSON.parse(rawdata);
+  for (let s in serverList) {
+    if (serverList[s].map === undefined || serverList[s].map === "?") continue;
+    else {
+      let oneServerPrepare =
+        `<div class="server-card" href="${serverList[s].address}" data-name="${serverList[s].name}">
+              <div class="server-card-bg">
+                <img src="assets/mapshots/${serverList[s].map}.jpg" alt="${serverList[s].map}"/>
+                <div class="serverPing">${serverList[s].ping}</div>
+                <div class="serverMap">${serverList[s].map}</div>
+              </div>
+              <div class="serverName"> ${serverList[s].name} </div>
+              <div class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</div>
+          </div>`;
+      $(".appServerList").append(oneServerPrepare);
+    }
+  }
+}
 
 onAppLoad();
