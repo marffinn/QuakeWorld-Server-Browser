@@ -1,7 +1,6 @@
 const $ = require("jquery");
 const fs = require("fs");
 const { spawn, exec } = require("child_process");
-const { ipcRenderer } = require("electron");
 const { webContents } = require("electron/main");
 const { webFrame } = require("electron/renderer");
 const { log } = require("console");
