@@ -1,23 +1,21 @@
 const $ = require("jquery");
 const fs = require("fs");
-const path = require("path");
 const { spawn, exec } = require("child_process");
 const { ipcRenderer } = require("electron");
 const { webContents } = require("electron/main");
 const { webFrame } = require("electron/renderer");
 const { log } = require("console");
 
+const QSTAT_PATH = require("path").join(__dirname, "assets/qstat.exe");
 let progressBar = $(".progress_bar_percentage");
 
 let updateFromMaster = () => {
-  // helper function for correct array rendering
   let addZero = (i) => {
     if (i < 10) {
       i = "0" + i;
     }
     return i;
   };
-  // UI stuff
   progressBar.show();
 
   const ls = spawn(`assets/qstat.exe`, [
@@ -114,6 +112,23 @@ $(".btn_refresh_servers").on("click", readServers);
 
 $("body").on("click", ".appServerList tr", function (e) {
   e.preventDefault();
-  console.log($(this).attr("href"))
+  let oneServerAddress = $(this).attr("href");
+  exec(
+    `${QSTAT_PATH} -qws ${oneServerAddress} -nh -P -R -sort F -noconsole -json`,
+    (err, stdout) => {
+      if (err) {
+        console.error(err);
+      }
+      let outInfo = JSON.parse(stdout)[0];
+
+      let sv_name = outInfo.name;
+      let sv_address = outInfo.address;
+      let sv_map = outInfo.map;
+
+      $(".modal_container").show();
+      $(".modal_win").html('<img src="assets/mapshots/' + sv_map + '.jpg" />');
+    }
+  );
 });
+
 onAppLoad();
