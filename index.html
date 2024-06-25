@@ -17,35 +17,19 @@
     <!-- root element -->
     <root>
       <div class="bar-container">
-        <button
-          type="button"
-          class="btn_update_masters btn btn-primary btn-warning text-uppercase"
-          style="
-            --bs-btn-padding-y: 0.2rem;
-            --bs-btn-padding-x: 1rem;
-            --bs-btn-font-size: 0.75rem;
-            -webkit-app-region: no-drag;
-          "
-        >
+        <button type="button" class="btn_update_masters">
           Update master server
         </button>
-        <button
-          type="button"
-          class="btn_refresh_servers btn btn-primary text-uppercase"
-          style="
-            --bs-btn-padding-y: 0.2rem;
-            --bs-btn-padding-x: 1rem;
-            --bs-btn-font-size: 0.75rem;
-            -webkit-app-region: no-drag;
-          "
-        >
-          Refresh
-        </button>
+        <button type="button" class="btn_refresh_servers">Refresh</button>
       </div>
 
       <div class="appServerList"></div>
 
-      <p class="progress_bar_percentage"><b class="progress_text"></b></p>
+      <div class="progress-bar-holder">
+        <p class="progress_bar_percentage">
+          <b class="progress_text"></b>
+        </p>
+      </div>
     </root>
     <!-- end of root -->
 

@@ -32,6 +32,7 @@ let updateFromMaster = () => {
     `assets/servers.json`,
   ])
     .stderr.on("data", (data) => {
+      $(".progress_text").empty();
       let progress = data.toString();
       let bar = progress.substring(0, progress.indexOf(" ("));
       var fields = bar.split("/");

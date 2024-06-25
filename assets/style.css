@@ -47,7 +47,7 @@ body {
    height: auto;
    float: left;
    width: 100%;
-   margin-top: 50px;
+   margin-top: 60px;
 }
 .server-card {
    width: 23%;
@@ -55,11 +55,11 @@ body {
    background-color: crimson;
    color: white;
    min-height: 250px;
-   border: 1px solid crimson;
    border-radius: 3px;
    overflow: hidden;
    margin: 1%;
    float: left;
+   padding: 0px;
 }
 .server-card-bg {
    width: 100%;
@@ -120,10 +120,10 @@ body {
    width: 0%;
    height: auto;
    float: left;
-   background-color: greenyellow;
+   background-color: #527817;
    margin: 0;
    padding: 0;
-   position: fixed;
+   position: relative;
    bottom: 0;
 }
 
@@ -132,7 +132,9 @@ body {
    text-align: center;
    display: block;
    width: 100%;
+   color: white;
    padding: 5px 0px;
+   text-transform: uppercase;
 }
 
 /* width */
@@ -154,3 +156,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
    background: #555;
 }
+
+button {
+   display: block;
+   -webkit-app-region: no-drag;
+   float: left;
+}
+.progress-bar-holder {display: block;width: 300px;border-radius: 10px;overflow: hidden;position: fixed;left: 50%;margin-left: -150px;bottom: 10px;}

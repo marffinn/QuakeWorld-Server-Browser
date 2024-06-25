@@ -11,7 +11,7 @@
 		"maxplayers": 20,
 		"numspectators": 2,
 		"maxspectators": 12,
-		"ping": 45,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -27,33 +27,33 @@
 			"*progs": "so",
 			"timelimit": "6",
 			"serverdemo": "ffa_1[efdm8]240625-1759.mvd",
-			"status": "6 min left"
+			"status": "4 min left"
 		},
 		"players": [
 			{
 				"number": 10,
 				"name": "PET_USER_6502",
 				"score": -9999,
-				"time": "0s",
+				"time": "2m0s",
 				"ping": 50,
 				"skin": "badbabe2",
 				"team": ""
 			},
 			{
-				"number": 81,
-				"name": "nilton",
-				"score": 1,
-				"time": "0s",
-				"ping": 25,
-				"skin": "",
-				"team": "blue"
+				"number": 86,
+				"name": "nexus",
+				"score": 7,
+				"time": "1m0s",
+				"ping": 40,
+				"skin": "base",
+				"team": "tro"
 			},
 			{
 				"number": 75,
 				"name": "player",
-				"score": 3,
-				"time": "0s",
-				"ping": 39,
+				"score": 15,
+				"time": "2m0s",
+				"ping": 38,
 				"skin": "",
 				"team": "coop"
 			},
@@ -61,44 +61,44 @@
 				"number": 79,
 				"name": "DestBR",
 				"score": 1,
-				"time": "0s",
-				"ping": 220,
+				"time": "2m0s",
+				"ping": 221,
 				"skin": "base",
 				"team": "red"
 			},
 			{
 				"number": 83,
 				"name": "wallu",
-				"score": 4,
-				"time": "0s",
-				"ping": 40,
+				"score": 29,
+				"time": "2m0s",
+				"ping": 39,
 				"skin": "",
 				"team": "koff"
 			},
 			{
 				"number": 69,
 				"name": "pkk",
-				"score": 0,
-				"time": "0s",
-				"ping": 51,
+				"score": 28,
+				"time": "2m0s",
+				"ping": 50,
 				"skin": "",
 				"team": "koff"
 			},
 			{
 				"number": 77,
 				"name": "Carmolio",
-				"score": 4,
-				"time": "0s",
-				"ping": 172,
+				"score": 17,
+				"time": "2m0s",
+				"ping": 169,
 				"skin": "",
 				"team": "blue"
 			},
 			{
 				"number": 84,
 				"name": "sss",
-				"score": 2,
-				"time": "0s",
-				"ping": 52,
+				"score": 9,
+				"time": "2m0s",
+				"ping": 54,
 				"skin": "",
 				"team": ""
 			},
@@ -106,8 +106,8 @@
 				"number": 85,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "0s",
-				"ping": 636,
+				"time": "2m0s",
+				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
 			}
@@ -125,7 +125,7 @@
 		"maxplayers": 26,
 		"numspectators": 1,
 		"maxspectators": 12,
-		"ping": 181,
+		"ping": 164,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -149,7 +149,7 @@
 				"number": 77,
 				"name": "/ bro",
 				"score": 46,
-				"time": "39m0s",
+				"time": "41m0s",
 				"ping": 10,
 				"skin": "base",
 				"team": ""
@@ -158,7 +158,7 @@
 				"number": 71,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "39m0s",
+				"time": "41m0s",
 				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
@@ -167,7 +167,7 @@
 				"number": 78,
 				"name": "/ goldenboy",
 				"score": 33,
-				"time": "39m0s",
+				"time": "41m0s",
 				"ping": 10,
 				"skin": "base",
 				"team": ""
@@ -176,72 +176,10 @@
 				"number": 79,
 				"name": "/ tincan",
 				"score": 19,
-				"time": "35m0s",
+				"time": "38m0s",
 				"ping": 10,
 				"skin": "base",
 				"team": ""
-			}
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "108.61.178.207:28503",
-		"status": "online",
-		"hostname": "108.61.178.207:28503",
-		"name": "de.quake.world:28503 [Andehlag]",
-		"gametype": "qw",
-		"map": "dm4",
-		"numplayers": 2,
-		"maxplayers": 2,
-		"numspectators": 1,
-		"maxspectators": 12,
-		"ping": 48,
-		"retries": 0,
-		"rules": {
-			"maxfps": "77",
-			"pm_ktjump": "1",
-			"*version": "MVDSV 1.01-dev-antilag-r402",
-			"*z_ext": "511",
-			"*admin": "ERRH @ https://discord.quake.world",
-			"ktxver": "1.44-dev-r402",
-			"*gamedir": "qw",
-			"sv_antilag": "1",
-			"deathmatch": "3",
-			"mode": "1on1",
-			"timelimit": "5",
-			"fpd": "142",
-			"status": "Standby",
-			"*qvm": "so",
-			"*progs": "so",
-			"epoch": "1719338397"
-		},
-		"players": [
-			{
-				"number": 14,
-				"name": "mushi",
-				"score": 0,
-				"time": "0s",
-				"ping": 51,
-				"skin": "",
-				"team": "rt"
-			},
-			{
-				"number": 15,
-				"name": "[ServeMe]",
-				"score": -9999,
-				"time": "0s",
-				"ping": 440,
-				"skin": "",
-				"team": "lqwc"
-			},
-			{
-				"number": 22,
-				"name": "xirtaM",
-				"score": 0,
-				"time": "0s",
-				"ping": 38,
-				"skin": "",
-				"team": "oen"
 			}
 		]
 	},
@@ -257,7 +195,7 @@
 		"maxplayers": 2,
 		"numspectators": 1,
 		"maxspectators": 12,
-		"ping": 90,
+		"ping": 78,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -276,14 +214,14 @@
 			"serverdemo": "duel_holy._vs_ss[ztndm3]20240625-1956.mvd",
 			"epoch": "1719338199",
 			"fpd": "206",
-			"status": "7 min left"
+			"status": "5 min left"
 		},
 		"players": [
 			{
 				"number": 10,
 				"name": "HoLy.",
-				"score": 15,
-				"time": "3m0s",
+				"score": 22,
+				"time": "5m0s",
 				"ping": 25,
 				"skin": "",
 				"team": "blue"
@@ -292,8 +230,8 @@
 				"number": 14,
 				"name": "SS",
 				"score": 1,
-				"time": "3m0s",
-				"ping": 26,
+				"time": "5m0s",
+				"ping": 53,
 				"skin": "",
 				"team": "3b"
 			},
@@ -301,10 +239,111 @@
 				"number": 21,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "3m0s",
+				"time": "5m0s",
 				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
+			}
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "108.61.178.207:28503",
+		"status": "online",
+		"hostname": "108.61.178.207:28503",
+		"name": "de.quake.world:28503 [Andehlag]",
+		"gametype": "qw",
+		"map": "dm2",
+		"numplayers": 2,
+		"maxplayers": 2,
+		"numspectators": 1,
+		"maxspectators": 12,
+		"ping": 52,
+		"retries": 0,
+		"rules": {
+			"maxfps": "77",
+			"pm_ktjump": "1",
+			"*version": "MVDSV 1.01-dev-antilag-r402",
+			"*z_ext": "511",
+			"*admin": "ERRH @ https://discord.quake.world",
+			"ktxver": "1.44-dev-r402",
+			"*gamedir": "qw",
+			"sv_antilag": "1",
+			"deathmatch": "3",
+			"mode": "1on1",
+			"*qvm": "so",
+			"*progs": "so",
+			"timelimit": "10",
+			"serverdemo": "duel_mushi_vs_xirtam[dm2]20240625-1800.mvd",
+			"epoch": "1719338448",
+			"fpd": "206",
+			"status": "9 min left"
+		},
+		"players": [
+			{
+				"number": 14,
+				"name": "mushi",
+				"score": 8,
+				"time": "2m0s",
+				"ping": 52,
+				"skin": "",
+				"team": "rt"
+			},
+			{
+				"number": 15,
+				"name": "[ServeMe]",
+				"score": -9999,
+				"time": "2m0s",
+				"ping": 666,
+				"skin": "",
+				"team": "lqwc"
+			},
+			{
+				"number": 22,
+				"name": "xirtaM",
+				"score": 1,
+				"time": "2m0s",
+				"ping": 38,
+				"skin": "",
+				"team": "oen"
+			}
+		]
+	},
+	{
+		"protocol": "qws",
+		"address": "95.216.18.118:30000",
+		"status": "online",
+		"hostname": "95.216.18.118:30000",
+		"name": "troopers.fi QWfwd",
+		"gametype": "",
+		"map": "?",
+		"numplayers": 2,
+		"maxplayers": 128,
+		"numspectators": 0,
+		"maxspectators": 0,
+		"ping": 82,
+		"retries": 0,
+		"rules": {
+			"*version": "qwfwd 1.2"
+		},
+		"players": [
+			{
+				"number": 575,
+				"name": "nexus",
+				"score": 0,
+				"time": "1m0s",
+				"ping": 666,
+				"skin": "",
+				"team": ""
+			},
+			{
+				"number": 574,
+				"name": "wallu",
+				"score": 0,
+				"time": "7m0s",
+				"ping": 666,
+				"skin": "",
+				"team": ""
 			}
 		]
 	},
@@ -320,7 +359,7 @@
 		"maxplayers": 2,
 		"numspectators": 3,
 		"maxspectators": 6,
-		"ping": 76,
+		"ping": 74,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -334,26 +373,27 @@
 			"mode": "1on1",
 			"timelimit": "3",
 			"deathmatch": "4",
-			"fpd": "142",
-			"status": "Standby",
 			"*qvm": "so",
-			"*progs": "so"
+			"*progs": "so",
+			"serverdemo": "duel_quake_vs_glad[dm2dmm4]240625-2100.mvd",
+			"fpd": "206",
+			"status": "2 min left"
 		},
 		"players": [
 			{
 				"number": 81,
 				"name": "Quake",
-				"score": 0,
-				"time": "0s",
-				"ping": 50,
+				"score": 8,
+				"time": "2m0s",
+				"ping": 38,
 				"skin": "",
 				"team": "red"
 			},
 			{
 				"number": 78,
 				"name": "gLAd",
-				"score": 0,
-				"time": "0s",
+				"score": 7,
+				"time": "2m0s",
 				"ping": 25,
 				"skin": "glad",
 				"team": "3b"
@@ -362,7 +402,7 @@
 				"number": 56,
 				"name": "Dento",
 				"score": -9999,
-				"time": "0s",
+				"time": "2m0s",
 				"ping": 21,
 				"skin": "",
 				"team": "red"
@@ -371,7 +411,7 @@
 				"number": 75,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "0s",
+				"time": "2m0s",
 				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
@@ -380,8 +420,8 @@
 				"number": 76,
 				"name": "doberman",
 				"score": -9999,
-				"time": "0s",
-				"ping": 50,
+				"time": "2m0s",
+				"ping": 33,
 				"skin": "",
 				"team": "3b"
 			}
@@ -399,7 +439,7 @@
 		"maxplayers": 2,
 		"numspectators": 1,
 		"maxspectators": 12,
-		"ping": 46,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -417,14 +457,14 @@
 			"*progs": "so",
 			"serverdemo": "duel_adrenalin_vs_j0rmund[dm2]20240625-1752.mvd",
 			"fpd": "206",
-			"status": "3 min left"
+			"status": "1 min left"
 		},
 		"players": [
 			{
 				"number": 73,
 				"name": "adrenalin",
-				"score": 19,
-				"time": "8m0s",
+				"score": 22,
+				"time": "10m0s",
 				"ping": 13,
 				"skin": "",
 				"team": "swe"
@@ -433,7 +473,7 @@
 				"number": 74,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "8m0s",
+				"time": "10m0s",
 				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
@@ -442,39 +482,10 @@
 				"number": 77,
 				"name": "j0rmund",
 				"score": 4,
-				"time": "8m0s",
-				"ping": 38,
+				"time": "10m0s",
+				"ping": 39,
 				"skin": "",
 				"team": "red"
-			}
-		]
-	},
-	{
-		"protocol": "qws",
-		"address": "95.216.18.118:30000",
-		"status": "online",
-		"hostname": "95.216.18.118:30000",
-		"name": "troopers.fi QWfwd",
-		"gametype": "",
-		"map": "?",
-		"numplayers": 1,
-		"maxplayers": 128,
-		"numspectators": 0,
-		"maxspectators": 0,
-		"ping": 74,
-		"retries": 0,
-		"rules": {
-			"*version": "qwfwd 1.2"
-		},
-		"players": [
-			{
-				"number": 574,
-				"name": "wallu",
-				"score": 0,
-				"time": "5m0s",
-				"ping": 666,
-				"skin": "",
-				"team": ""
 			}
 		]
 	},
@@ -490,7 +501,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 55,
+		"ping": 48,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -500,7 +511,7 @@
 				"number": 3,
 				"name": "Carmolio",
 				"score": 0,
-				"time": "15m0s",
+				"time": "18m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -519,7 +530,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 95,
+		"ping": 97,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -529,7 +540,7 @@
 				"number": 7739,
 				"name": "gLAd",
 				"score": 0,
-				"time": "8m0s",
+				"time": "10m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -548,7 +559,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 81,
+		"ping": 85,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -558,7 +569,7 @@
 				"number": 132,
 				"name": "Vortex",
 				"score": 0,
-				"time": "50h1m0s",
+				"time": "50h3m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -577,7 +588,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 109,
+		"ping": 229,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -587,7 +598,7 @@
 				"number": 385,
 				"name": "[ServeMiscord]",
 				"score": 0,
-				"time": "31h21m0s",
+				"time": "31h23m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -606,7 +617,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 73,
+		"ping": 79,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -616,7 +627,7 @@
 				"number": 50,
 				"name": "Vortex",
 				"score": 0,
-				"time": "50h1m0s",
+				"time": "50h3m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -635,7 +646,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 65,
+		"ping": 89,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -645,7 +656,7 @@
 				"number": 367,
 				"name": "gLAd",
 				"score": 0,
-				"time": "8m0s",
+				"time": "10m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -664,7 +675,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 69,
+		"ping": 61,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -674,7 +685,7 @@
 				"number": 237,
 				"name": "Carmolio",
 				"score": 0,
-				"time": "15m0s",
+				"time": "18m0s",
 				"ping": 666,
 				"skin": "",
 				"team": ""
@@ -693,7 +704,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 56,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -729,7 +740,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 94,
+		"ping": 103,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -765,7 +776,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 73,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"fraglimit": "0",
@@ -791,7 +802,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 63,
+		"ping": 55,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -827,7 +838,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 124,
+		"ping": 128,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -848,7 +859,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 58,
+		"ping": 50,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -884,7 +895,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 111,
+		"ping": 139,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -905,7 +916,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 15,
-		"ping": 89,
+		"ping": 199,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -941,7 +952,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 95,
+		"ping": 179,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -962,7 +973,7 @@
 		"maxplayers": 15,
 		"numspectators": 0,
 		"maxspectators": 15,
-		"ping": 194,
+		"ping": 94,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -998,7 +1009,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 15,
-		"ping": 97,
+		"ping": 202,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1034,7 +1045,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 16,
-		"ping": 86,
+		"ping": 69,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1071,7 +1082,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 16,
-		"ping": 74,
+		"ping": 72,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1111,7 +1122,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 187,
+		"ping": 79,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1148,7 +1159,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 176,
+		"ping": 178,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1185,7 +1196,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 85,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1222,7 +1233,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 89,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1259,7 +1270,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 90,
+		"ping": 82,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1296,7 +1307,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 83,
+		"ping": 91,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1333,7 +1344,7 @@
 		"maxplayers": 16,
 		"numspectators": 0,
 		"maxspectators": 16,
-		"ping": 93,
+		"ping": 76,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1364,7 +1375,7 @@
 		"maxplayers": 12,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 88,
+		"ping": 72,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1402,7 +1413,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 108,
+		"ping": 81,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1439,7 +1450,7 @@
 		"maxplayers": 16,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 45,
+		"ping": 36,
 		"retries": 0,
 		"rules": {
 			"sv_antilag": "0",
@@ -1502,7 +1513,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 90,
+		"ping": 86,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1539,7 +1550,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 87,
+		"ping": 66,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -1560,7 +1571,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 84,
+		"ping": 91,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1597,7 +1608,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 90,
+		"ping": 88,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1634,7 +1645,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 84,
+		"ping": 88,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1671,7 +1682,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 77,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1709,7 +1720,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 52,
+		"ping": 150,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -1730,7 +1741,7 @@
 		"maxplayers": 1000,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 125,
+		"ping": 147,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -1751,7 +1762,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 169,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1788,7 +1799,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 60,
+		"ping": 83,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1856,7 +1867,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 73,
+		"ping": 161,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1893,7 +1904,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 74,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1930,7 +1941,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 79,
+		"ping": 61,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -1967,7 +1978,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 57,
+		"ping": 68,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2004,7 +2015,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 160,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2041,7 +2052,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 66,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"spawn": "0",
@@ -2078,7 +2089,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 64,
+		"ping": 89,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2111,7 +2122,7 @@
 		"maxplayers": 12,
 		"numspectators": 0,
 		"maxspectators": 2,
-		"ping": 69,
+		"ping": 63,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "1",
@@ -2143,7 +2154,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 68,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2178,7 +2189,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 87,
+		"ping": 170,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -2199,7 +2210,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 61,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2233,7 +2244,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 54,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2267,7 +2278,7 @@
 		"maxplayers": 12,
 		"numspectators": 0,
 		"maxspectators": 2,
-		"ping": 67,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "1",
@@ -2304,7 +2315,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 96,
+		"ping": 98,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.10-dev"
@@ -2325,7 +2336,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 27,
+		"ping": 35,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2362,7 +2373,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 32,
+		"ping": 21,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -2383,7 +2394,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 29,
+		"ping": 42,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2420,7 +2431,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 89,
+		"ping": 72,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2456,7 +2467,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 128,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -2477,7 +2488,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 32,
+		"ping": 53,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2512,7 +2523,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 30,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2547,7 +2558,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 35,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -2568,7 +2579,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 29,
+		"ping": 37,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2603,7 +2614,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 30,
+		"ping": 48,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2638,7 +2649,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 71,
+		"ping": 72,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2673,7 +2684,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 72,
+		"ping": 75,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2708,7 +2719,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 78,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2743,7 +2754,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 91,
+		"ping": 82,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2777,7 +2788,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 158,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2812,7 +2823,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 76,
+		"ping": 69,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2848,7 +2859,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 214,
+		"ping": 202,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2883,7 +2894,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 77,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2918,7 +2929,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 82,
+		"ping": 75,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2954,7 +2965,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 41,
+		"ping": 44,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -2987,7 +2998,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 68,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3023,7 +3034,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 84,
+		"ping": 85,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3059,7 +3070,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 68,
+		"ping": 61,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3095,7 +3106,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 67,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3131,7 +3142,7 @@
 		"maxplayers": 4,
 		"numspectators": 2,
 		"maxspectators": 6,
-		"ping": 76,
+		"ping": 73,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3156,7 +3167,7 @@
 				"number": 47,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "1h22m0s",
+				"time": "1h25m0s",
 				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
@@ -3165,7 +3176,7 @@
 				"number": 32,
 				"name": "Vortex",
 				"score": -9999,
-				"time": "1h22m0s",
+				"time": "1h25m0s",
 				"ping": 50,
 				"skin": "",
 				"team": "red"
@@ -3184,7 +3195,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 69,
+		"ping": 68,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3220,7 +3231,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 72,
+		"ping": 78,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3256,7 +3267,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 123,
+		"ping": 263,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -3277,7 +3288,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 69,
+		"ping": 181,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3313,7 +3324,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 142,
+		"ping": 148,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -3334,7 +3345,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 1272,
+		"ping": 1232,
 		"retries": 1,
 		"rules": {
 			"maxfps": "77",
@@ -3368,7 +3379,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 65,
+		"ping": 96,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -3389,7 +3400,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 186,
+		"ping": 197,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3423,8 +3434,8 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 1277,
-		"retries": 1,
+		"ping": 1755,
+		"retries": 2,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -3458,7 +3469,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 65,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3494,7 +3505,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 61,
+		"ping": 69,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3530,7 +3541,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 49,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -3551,7 +3562,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 63,
+		"ping": 51,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3587,7 +3598,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 79,
+		"ping": 46,
 		"retries": 0,
 		"rules": {
 			"fraglimit": "0",
@@ -3618,7 +3629,7 @@
 			"n": "2",
 			"*progs": "11600",
 			"MegaTF": "v02.27.12United",
-			"uptime": "d:192 h:13 m:47"
+			"uptime": "d:192 h:13 m:48"
 		},
 		"players": [
 
@@ -3636,7 +3647,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 69,
+		"ping": 30,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3672,7 +3683,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 85,
+		"ping": 68,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3708,7 +3719,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 71,
+		"ping": 33,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3744,7 +3755,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 75,
+		"ping": 30,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3780,7 +3791,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 73,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3816,7 +3827,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 72,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3852,7 +3863,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 71,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3888,7 +3899,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 84,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3924,7 +3935,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 80,
+		"ping": 63,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -3960,7 +3971,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 58,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2-dev"
@@ -3981,7 +3992,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 64,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2-dev"
@@ -4002,7 +4013,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 66,
+		"ping": 63,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4036,7 +4047,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 64,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -4078,7 +4089,7 @@
 		"maxplayers": 2,
 		"numspectators": 2,
 		"maxspectators": 12,
-		"ping": 34,
+		"ping": 35,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4103,7 +4114,7 @@
 				"number": 48,
 				"name": "[ServeMe]",
 				"score": -9999,
-				"time": "35m0s",
+				"time": "38m0s",
 				"ping": 666,
 				"skin": "",
 				"team": "lqwc"
@@ -4112,7 +4123,7 @@
 				"number": 47,
 				"name": "lolek",
 				"score": -9999,
-				"time": "35m0s",
+				"time": "38m0s",
 				"ping": 50,
 				"skin": "6",
 				"team": ""
@@ -4131,7 +4142,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 43,
+		"ping": 31,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4167,7 +4178,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 124,
+		"ping": 118,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -4188,7 +4199,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 28,
+		"ping": 34,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -4209,7 +4220,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 220,
+		"ping": 189,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4246,8 +4257,8 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 1199,
-		"retries": 1,
+		"ping": 70,
+		"retries": 0,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -4283,7 +4294,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 220,
+		"ping": 206,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4320,7 +4331,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 196,
+		"ping": 75,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4357,7 +4368,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 211,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4394,7 +4405,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 83,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4427,7 +4438,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 82,
+		"ping": 65,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4451,6 +4462,43 @@
 	},
 	{
 		"protocol": "qws",
+		"address": "95.165.130.151:27500",
+		"status": "online",
+		"hostname": "95.165.130.151:27500",
+		"name": "qw2.ru - Moscow Server FFA",
+		"gametype": "qw",
+		"map": "spinev2",
+		"numplayers": 0,
+		"maxplayers": 10,
+		"numspectators": 0,
+		"maxspectators": 32,
+		"ping": 109,
+		"retries": 0,
+		"rules": {
+			"deathmatch": "3",
+			"watervis": "0",
+			"*version": "MVDSV 0.29",
+			"*z_ext": "235",
+			"*progs": "dll",
+			"ktxver": "1.37-SVN",
+			"ktxbuild": "0",
+			"status": "Standby",
+			"*admin": "spazm@newmail.ru",
+			"vwep": "1",
+			"timelimit": "10",
+			"fraglimit": "100",
+			"*gamedir": "qw",
+			"fpd": "206",
+			"pm_ktjump": "0",
+			"maxfps": "77",
+			"teamplay": "0"
+		},
+		"players": [
+
+		]
+	},
+	{
+		"protocol": "qws",
 		"address": "130.242.114.28:28510",
 		"status": "online",
 		"hostname": "130.242.114.28:28510",
@@ -4461,7 +4509,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 210,
+		"ping": 98,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4498,7 +4546,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 58,
+		"ping": 49,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4532,7 +4580,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 70,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4569,7 +4617,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 67,
+		"ping": 63,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4606,7 +4654,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 135,
+		"ping": 147,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -4627,7 +4675,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 71,
+		"ping": 73,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4664,7 +4712,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 61,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4701,8 +4749,8 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 1197,
-		"retries": 1,
+		"ping": 70,
+		"retries": 0,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -4738,7 +4786,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 84,
+		"ping": 175,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4775,7 +4823,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 187,
+		"ping": 83,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4812,7 +4860,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 83,
+		"ping": 90,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4849,7 +4897,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 95,
+		"ping": 96,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -4870,7 +4918,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 135,
+		"ping": 109,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -4891,7 +4939,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 122,
+		"ping": 112,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -4912,7 +4960,7 @@
 		"maxplayers": 10,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 79,
+		"ping": 76,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4944,7 +4992,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 184,
+		"ping": 160,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -4977,7 +5025,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 68,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -4998,7 +5046,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 205,
+		"ping": 202,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5033,7 +5081,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 50,
+		"ping": 72,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5068,7 +5116,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 153,
+		"ping": 105,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -5089,7 +5137,7 @@
 		"maxplayers": 16,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 95,
+		"ping": 75,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5127,7 +5175,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 32,
-		"ping": 126,
+		"ping": 124,
 		"retries": 0,
 		"rules": {
 			"fraglimit": "0",
@@ -5163,7 +5211,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 108,
+		"ping": 79,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5200,7 +5248,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 32,
-		"ping": 141,
+		"ping": 116,
 		"retries": 0,
 		"rules": {
 			"fraglimit": "0",
@@ -5236,7 +5284,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 32,
-		"ping": 126,
+		"ping": 112,
 		"retries": 0,
 		"rules": {
 			"fraglimit": "0",
@@ -5272,7 +5320,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 79,
+		"ping": 74,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5305,7 +5353,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 181,
+		"ping": 93,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2-dev"
@@ -5326,7 +5374,7 @@
 		"maxplayers": 16,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 102,
+		"ping": 178,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5399,7 +5447,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 47,
+		"ping": 41,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5436,7 +5484,7 @@
 		"maxplayers": 1000,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 80,
+		"ping": 140,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -5457,7 +5505,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 44,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5494,7 +5542,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 62,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5530,7 +5578,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 58,
+		"ping": 55,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5566,7 +5614,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 55,
+		"ping": 48,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5603,7 +5651,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 46,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5640,7 +5688,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 53,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5677,7 +5725,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 45,
+		"ping": 49,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5751,7 +5799,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 59,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5789,7 +5837,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 179,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -5810,7 +5858,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 66,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5844,7 +5892,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 96,
+		"ping": 87,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5881,7 +5929,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 86,
+		"ping": 93,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5918,7 +5966,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 56,
+		"ping": 57,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5954,7 +6002,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 61,
+		"ping": 57,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -5990,7 +6038,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 105,
+		"ping": 90,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -6011,7 +6059,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 61,
+		"ping": 57,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -6032,7 +6080,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 83,
+		"ping": 145,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -6053,7 +6101,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 52,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6090,7 +6138,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 51,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6127,7 +6175,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 64,
+		"ping": 56,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6163,7 +6211,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 63,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6199,7 +6247,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 71,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6235,7 +6283,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 64,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6271,7 +6319,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 66,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6307,7 +6355,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 70,
+		"ping": 42,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6343,7 +6391,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 44,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6379,7 +6427,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 164,
+		"ping": 103,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -6400,7 +6448,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 48,
+		"ping": 49,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6437,7 +6485,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 48,
+		"ping": 50,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6474,7 +6522,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 62,
+		"ping": 55,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6511,7 +6559,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 51,
+		"ping": 57,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6548,7 +6596,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 100,
+		"ping": 94,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -6569,7 +6617,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 57,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -6590,7 +6638,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 31,
+		"ping": 25,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6625,7 +6673,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 36,
+		"ping": 24,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6660,7 +6708,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 30,
+		"ping": 24,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6695,7 +6743,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 53,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6730,7 +6778,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 42,
+		"ping": 22,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6765,7 +6813,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 182,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6801,7 +6849,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 58,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6836,7 +6884,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 54,
+		"ping": 73,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6872,7 +6920,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 173,
+		"ping": 100,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.15-dev"
@@ -6893,7 +6941,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 58,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -6914,7 +6962,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 55,
+		"ping": 57,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6949,7 +6997,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 37,
+		"ping": 39,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -6983,7 +7031,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 49,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7019,7 +7067,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 58,
+		"ping": 49,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7053,7 +7101,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 367,
+		"ping": 362,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7090,7 +7138,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 61,
+		"ping": 56,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7124,7 +7172,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 44,
+		"ping": 43,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7159,7 +7207,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 50,
+		"ping": 44,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7195,7 +7243,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 57,
+		"ping": 43,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7229,7 +7277,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 73,
+		"ping": 37,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7264,7 +7312,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 48,
+		"ping": 39,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -7285,7 +7333,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 63,
+		"ping": 39,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7320,7 +7368,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 70,
+		"ping": 81,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7355,7 +7403,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 59,
+		"ping": 44,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7390,7 +7438,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 69,
+		"ping": 49,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7424,7 +7472,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 106,
+		"ping": 80,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7460,7 +7508,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 62,
+		"ping": 39,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7495,7 +7543,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 65,
+		"ping": 38,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7530,7 +7578,7 @@
 		"maxplayers": 16,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 194,
+		"ping": 92,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7547,7 +7595,7 @@
 			"*progs": "44394",
 			"epoch": "1719337788",
 			"score": "100:100:20",
-			"status": "5 min left"
+			"status": "3 min left"
 		},
 		"players": [
 
@@ -7565,7 +7613,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 86,
+		"ping": 84,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -7586,7 +7634,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 88,
+		"ping": 89,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7622,7 +7670,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 70,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7657,7 +7705,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 77,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7692,7 +7740,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 196,
+		"ping": 91,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7725,7 +7773,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 75,
+		"ping": 70,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7760,7 +7808,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 194,
+		"ping": 103,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7795,7 +7843,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 46,
+		"ping": 49,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7866,7 +7914,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 49,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7902,7 +7950,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 52,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -7938,8 +7986,8 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 89,
-		"retries": 0,
+		"ping": 1197,
+		"retries": 1,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -7973,8 +8021,8 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 1234,
-		"retries": 1,
+		"ping": 79,
+		"retries": 0,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -8008,8 +8056,8 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 178,
-		"retries": 0,
+		"ping": 1200,
+		"retries": 1,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -8043,7 +8091,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 185,
+		"ping": 171,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8078,7 +8126,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 195,
+		"ping": 79,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8134,7 +8182,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 74,
+		"ping": 73,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -8181,7 +8229,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 58,
+		"ping": 61,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8202,7 +8250,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 66,
+		"ping": 81,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8223,7 +8271,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 75,
+		"ping": 66,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -8269,7 +8317,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 51,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8290,7 +8338,7 @@
 		"maxplayers": 10,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 47,
+		"ping": 45,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8325,7 +8373,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 52,
+		"ping": 66,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8362,7 +8410,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 56,
+		"ping": 59,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8399,7 +8447,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 57,
+		"ping": 51,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8420,7 +8468,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 69,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8441,7 +8489,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 216,
+		"ping": 280,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.12-rc1"
@@ -8462,7 +8510,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 56,
+		"ping": 46,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8496,7 +8544,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 160,
+		"ping": 123,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -8517,7 +8565,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 76,
+		"ping": 61,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8553,7 +8601,7 @@
 		"maxplayers": 1000,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 211,
+		"ping": 150,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -8574,7 +8622,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 177,
+		"ping": 161,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8595,7 +8643,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 61,
+		"ping": 173,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8631,7 +8679,7 @@
 		"maxplayers": 1000,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 94,
+		"ping": 181,
 		"retries": 0,
 		"rules": {
 			"*version": "QTVGO 1.1"
@@ -8652,7 +8700,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 82,
+		"ping": 181,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8687,7 +8735,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 82,
+		"ping": 79,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.12-rc1"
@@ -8708,8 +8756,8 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 79,
-		"retries": 0,
+		"ping": 1194,
+		"retries": 1,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -8743,7 +8791,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 10,
-		"ping": 87,
+		"ping": 90,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8778,7 +8826,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 60,
+		"ping": 67,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8813,7 +8861,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 77,
+		"ping": 76,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8834,7 +8882,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 69,
+		"ping": 64,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8855,7 +8903,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 64,
+		"ping": 66,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8890,7 +8938,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 93,
+		"ping": 76,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -8911,7 +8959,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 190,
+		"ping": 226,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -8932,7 +8980,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 54,
+		"ping": 197,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -8968,7 +9016,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 70,
+		"ping": 92,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9004,7 +9052,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 66,
+		"ping": 103,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9040,7 +9088,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 48,
+		"ping": 47,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9076,7 +9124,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 54,
+		"ping": 69,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9112,7 +9160,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 42,
+		"ping": 63,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9148,8 +9196,8 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 165,
-		"retries": 0,
+		"ping": 1167,
+		"retries": 1,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -9184,7 +9232,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 61,
+		"ping": 177,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9220,7 +9268,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 172,
+		"ping": 65,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9257,7 +9305,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 55,
+		"ping": 60,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9294,7 +9342,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 172,
+		"ping": 73,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9331,8 +9379,8 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 71,
-		"retries": 0,
+		"ping": 1173,
+		"retries": 1,
 		"rules": {
 			"maxfps": "77",
 			"pm_ktjump": "1",
@@ -9368,7 +9416,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 176,
+		"ping": 71,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9405,7 +9453,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 133,
+		"ping": 104,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -9426,7 +9474,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 68,
+		"ping": 96,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9462,7 +9510,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 166,
+		"ping": 62,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9499,7 +9547,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 161,
+		"ping": 174,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -9520,7 +9568,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 82,
+		"ping": 77,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -9541,7 +9589,7 @@
 		"maxplayers": 8,
 		"numspectators": 0,
 		"maxspectators": 4,
-		"ping": 71,
+		"ping": 81,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "1",
@@ -9579,7 +9627,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 81,
+		"ping": 83,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -9625,7 +9673,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 68,
+		"ping": 79,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9659,7 +9707,7 @@
 		"maxplayers": 26,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 192,
+		"ping": 103,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9694,7 +9742,7 @@
 		"maxplayers": 2,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 66,
+		"ping": 77,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -9740,7 +9788,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 67,
+		"ping": 73,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -9786,7 +9834,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 66,
+		"ping": 84,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -9807,7 +9855,7 @@
 		"maxplayers": 24,
 		"numspectators": 0,
 		"maxspectators": 8,
-		"ping": 68,
+		"ping": 75,
 		"retries": 0,
 		"rules": {
 			"deathmatch": "3",
@@ -9853,7 +9901,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 6,
-		"ping": 73,
+		"ping": 108,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9887,7 +9935,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 43,
+		"ping": 66,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
@@ -9908,7 +9956,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 93,
+		"ping": 154,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -9929,7 +9977,7 @@
 		"maxplayers": 4,
 		"numspectators": 0,
 		"maxspectators": 12,
-		"ping": 50,
+		"ping": 54,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -9965,7 +10013,7 @@
 		"maxplayers": 100,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 59,
+		"ping": 58,
 		"retries": 0,
 		"rules": {
 			"*version": "QTV 1.14"
@@ -9986,7 +10034,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 73,
+		"ping": 83,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -10020,7 +10068,7 @@
 		"maxplayers": 32,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 70,
+		"ping": 78,
 		"retries": 0,
 		"rules": {
 			"maxfps": "77",
@@ -10054,7 +10102,7 @@
 		"maxplayers": 128,
 		"numspectators": 0,
 		"maxspectators": 0,
-		"ping": 76,
+		"ping": 87,
 		"retries": 0,
 		"rules": {
 			"*version": "qwfwd 1.2"
