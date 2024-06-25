@@ -123,13 +123,12 @@ let onAppLoad = () => {
     else {
       let oneServerPrepare =
         `<div class="server-card" href="${serverList[s].address}" data-name="${serverList[s].name}">
-              <div class="server-card-bg"><img src="assets/mapshots/${serverList[s].map}.jpg" alt="${serverList[s].map}"/></div>
-              <div class="serverName">
-                ${serverList[s].name}
+              <div class="server-card-bg">
+                <img src="assets/mapshots/${serverList[s].map}.jpg" alt="${serverList[s].map}"/>
                 <div class="serverPing">${serverList[s].ping}</div>
+                <div class="serverMap">${serverList[s].map}</div>
               </div>
-              
-              <div class="serverMap">${serverList[s].map}</div>
+              <div class="serverName"> ${serverList[s].name} </div>
               <div class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</div>
           </div>`;
       $(".appServerList").append(oneServerPrepare);
