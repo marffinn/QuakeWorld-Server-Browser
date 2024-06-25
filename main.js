@@ -1,6 +1,5 @@
 const { app, BrowserWindow } = require("electron");
 const path = require("node:path");
-const { ipcMain } = require("electron");
 
 let mainWindow;
 
@@ -27,11 +26,3 @@ app.whenReady().then(() => {
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
-
-// ipcMain.on("close-me", (evt, arg) => {
-//   app.quit();
-// });
-
-// ipcMain.on("minimize-me", (evt, arg) => {
-//   mainWindow.minimize();
-// });
