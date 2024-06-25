@@ -8,7 +8,6 @@ const createWindow = () => {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 500,
-    frame: false,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
@@ -30,10 +29,11 @@ app.whenReady().then(() => {
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
-ipcMain.on("close-me", (evt, arg) => {
-  app.quit();
-});
 
-ipcMain.on("minimize-me", (evt, arg) => {
-  mainWindow.minimize();
-});
+// ipcMain.on("close-me", (evt, arg) => {
+//   app.quit();
+// });
+
+// ipcMain.on("minimize-me", (evt, arg) => {
+//   mainWindow.minimize();
+// });

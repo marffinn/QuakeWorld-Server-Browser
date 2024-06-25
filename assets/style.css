@@ -37,54 +37,6 @@ body {
   margin: 0% 1%;
 }
 
-.win_draggable {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.win_buttons {
-  display: block;
-  position: relative;
-  display: block;
-  width: auto;
-  height: auto;
-  top: 0;
-  float: right;
-  z-index: 9999;
-  right: 11px;
-}
-
-.win_buttons img {
-  width: 32px;
-}
-
-.win_minimize {
-  display: block;
-  float: right;
-  width: 15px;
-  height: 15px;
-  position: relative;
-  background-color: cadetblue;
-}
-
-.win_maximize {
-  display: block;
-  width: 15px;
-  height: 15px;
-  float: right;
-  position: relative;
-  background-color: #303030;
-}
-
-.win_close {
-  display: block;
-  width: 15px;
-  height: 15px;
-  position: relative;
-  float: right;
-  background-color: mediumvioletred;
-}
-
 .progress_Bar {
   display: block;
   width: 100%;
