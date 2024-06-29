@@ -50,8 +50,6 @@ let updateFromMaster = () => {
 };
 
 let readServers = () => {
-  $(".btn_refresh_servers").prop("disabled", true).addClass("disabled");
-
   spawn(`assets/qstat.exe`, [
     "-f",
     "assets/hosts.txt",
