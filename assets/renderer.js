@@ -66,15 +66,16 @@ let readServers = () => {
     "-of",
     `assets/cacheservers.json`,
   ]).on("close", () => {
-    $(".appServerList").empty();
     let rawdata = fs.readFileSync(`assets/cacheservers.json`);
     let serverList = JSON.parse(rawdata);
     cardRender(serverList);
-    $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
   });
 };
 
 let cardRender = (data) => {
+  $(".appServerList").empty();
+  $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
+
   for (let s in data) {
     if (data[s].map === undefined || data[s].map === "?") continue;
     else {
