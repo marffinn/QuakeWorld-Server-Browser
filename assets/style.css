@@ -12,6 +12,33 @@ body {
    padding: 0;
    -webkit-app-region: drag;
 }
+.modalPlayers {
+   background-color: crimson;
+   color: white;
+   position: absolute;
+   z-index: 9999;
+   display: block;
+}
+.serverPlayers {
+   display: block;
+}
+.serverPlayersContainer {
+   display: block;
+   position: absolute;
+   background: #1b2424;
+   width: 200px;
+   z-index: 9999;
+   top: 51px;
+   /* border-bottom: 1px solid #ccc; */
+}
+.serverPlayersContainer span {
+   display: block;
+   float: left;
+   clear: both;
+   /* border-bottom: 1px solid #ccc; */
+   font-size: .8em;
+   background-color: yellowgreen;
+}
 .bar-container {
    display: block;
    height: auto;
@@ -64,7 +91,7 @@ body {
 .server-card-bg {
    width: 100%;
    height: 150px;
-   overflow: hidden;
+   /* overflow: hidden; */
    position: relative;
 }
 .server-card-bg img {

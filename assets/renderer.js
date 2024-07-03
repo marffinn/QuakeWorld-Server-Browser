@@ -41,6 +41,7 @@ let updateFromMaster = () => {
       progressBar.css("width", barPercent + "%");
     })
     .on("close", () => {
+      readFaji();
       let d = new Date();
       let h = addZero(d.getHours());
       let m = addZero(d.getMinutes());
@@ -50,6 +51,7 @@ let updateFromMaster = () => {
 };
 
 let readServers = () => {
+  $(".btn_refresh_servers").css({ background: "red" }).prop("disabled", true);
   spawn(`assets/qstat.exe`, [
     "-f",
     "assets/hosts.txt",
@@ -66,27 +68,37 @@ let readServers = () => {
   ]).on("close", () => {
     let rawdata = fs.readFileSync(`assets/cacheservers.json`);
     let serverList = JSON.parse(rawdata);
+    $(".btn_refresh_servers").css({ background: "" }).prop("disabled", false);
     cardRender(serverList);
   });
 };
 
-let cardRender = (data) => {
+let cardRender = () => {
+  let rawdata = fs.readFileSync(`assets/cacheservers.json`);
+  let serverList = JSON.parse(rawdata);
   $(".appServerList").empty();
   $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
 
-  for (let s in data) {
-    if (data[s].map === undefined || data[s].map === "?") continue;
+  for (let s in serverList) {
+    if (serverList[s].numplayers === 0 || serverList[s].maxplayers >= 20)
+      continue;
     else {
       let oneServerPrepare = `
-      <div class="server-card" href="${data[s].address}" data-name="${data[s].name}">
-        <div class="server-card-bg">
-          <img src="assets/mapshots/${data[s].map}.jpg" alt="${data[s].map}"/>
-          <div class="serverPing">${data[s].ping}</div>
-          <div class="serverMap">${data[s].map}</div>
-        </div>
-        <div class="serverName"> ${data[s].name} </div>
-        <div class="serverPlayers">${data[s].numplayers}/${data[s].maxplayers}</div>
-      </div>`;
+        <div class="server-card" href="${serverList[s].address}" serverList-name="${serverList[s].name}">
+          <div class="server-card-bg">
+            <img src="assets/mapshots/${serverList[s].map}.jpg" alt="${serverList[s].map}"/>
+            <div class="serverPing">${serverList[s].ping}</div>
+            <div class="serverMap">${serverList[s].map}</div>
+            <div class="serverPlayersContainer"></div>
+          </div>
+          <div class="serverName"> ${serverList[s].name} </div>
+          <div class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</div>
+        </div>`;
+      for (let l in serverList[s].players) {
+        $(".serverPlayersContainer").append(
+          `<span>${serverList[0].players[l].name}</span>`
+        );
+      }
       $(".appServerList").append(oneServerPrepare);
     }
   }
@@ -94,8 +106,25 @@ let cardRender = (data) => {
 
 let onAppLoad = () => {
   let rawdata = fs.readFileSync(`assets/cacheservers.json`);
-  let serverList = JSON.parse(rawdata);
-  cardRender(serverList);
+  cardRender(rawdata);
+};
+
+let readFaji = () => {
+  fs.readFile("./assets/servers.json", "utf8", function (err, data) {
+    if (err) return console.log(err);
+    let theJson = JSON.parse(data);
+    for (let g in theJson) {
+      if (theJson[g].gametype != "qw" || theJson[g].ping >= 70) {
+        continue;
+      } else {
+        fs.appendFileSync(
+          "./assets/hosts.txt",
+          "qws " + theJson[g].address + "\n",
+          "utf-8"
+        );
+      }
+    }
+  });
 };
 
 $("body").on("click", ".server-card", function (e) {
@@ -112,11 +141,13 @@ $("body").on("click", ".server-card", function (e) {
       let sv_name = outInfo.name;
       let sv_address = outInfo.address;
       let sv_map = outInfo.map;
+      console.log(sv_name);
     }
   );
 });
 
 $(".btn_update_masters").on("click", updateFromMaster);
 $(".btn_refresh_servers").on("click", readServers);
+$(".btn_read_servers").on("click", cardRender);
 
 onAppLoad();

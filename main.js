@@ -15,6 +15,7 @@ const createWindow = () => {
     autoHideMenuBar: true,
   });
   mainWindow.loadFile("index.html");
+  mainWindow.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {
