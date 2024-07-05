@@ -41,7 +41,7 @@ let updateFromMaster = () => {
       progressBar.css("width", barPercent + "%");
     })
     .on("close", () => {
-      readFaji();
+      compileServerList();
       let d = new Date();
       let h = addZero(d.getHours());
       let m = addZero(d.getMinutes());
@@ -66,16 +66,16 @@ let readServers = () => {
     "-of",
     `assets/cacheservers.json`,
   ]).on("close", () => {
-    let rawdata = fs.readFileSync(`assets/cacheservers.json`);
-    let serverList = JSON.parse(rawdata);
     $(".btn_refresh_servers").css({ background: "" }).prop("disabled", false);
-    cardRender(serverList);
+    cardRender();
   });
 };
 
 let cardRender = () => {
   let rawdata = fs.readFileSync(`assets/cacheservers.json`);
   let serverList = JSON.parse(rawdata);
+  console.log(serverList);
+
   $(".appServerList").empty();
   $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
 
@@ -84,7 +84,7 @@ let cardRender = () => {
       continue;
     else {
       let oneServerPrepare = `
-        <div class="server-card" href="${serverList[s].address}" serverList-name="${serverList[s].name}">
+        <div class="server-card" href="${serverList[s].address}" serverList-name="${serverList[s].name}" id="${s}">
           <div class="server-card-bg">
             <img src="assets/mapshots/${serverList[s].map}.jpg" alt="${serverList[s].map}"/>
             <div class="serverPing">${serverList[s].ping}</div>
@@ -94,27 +94,32 @@ let cardRender = () => {
           <div class="serverName"> ${serverList[s].name} </div>
           <div class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</div>
         </div>`;
-      for (let l in serverList[s].players) {
-        $(".serverPlayersContainer").append(
-          `<span>${serverList[0].players[l].name}</span>`
-        );
-      }
+
       $(".appServerList").append(oneServerPrepare);
+      let pl = loadPlayers(serverList[s].players);
+      $("[id=" + s + "] .serverPlayersContainer").html(pl);
     }
   }
 };
 
-let onAppLoad = () => {
-  let rawdata = fs.readFileSync(`assets/cacheservers.json`);
-  cardRender(rawdata);
+let loadPlayers = (data) => {
+  var digg = $("<div>", { class: "indPlayer" });
+  for (let i in data) {
+    digg.append(`<p>${data[i].name}</p>`);
+  }
+  return digg[0];
 };
 
-let readFaji = () => {
+let onAppLoad = () => {
+  cardRender();
+};
+
+let compileServerList = () => {
   fs.readFile("./assets/servers.json", "utf8", function (err, data) {
     if (err) return console.log(err);
     let theJson = JSON.parse(data);
     for (let g in theJson) {
-      if (theJson[g].gametype != "qw" || theJson[g].ping >= 70) {
+      if (theJson[g].gametype != "qw") {
         continue;
       } else {
         fs.appendFileSync(

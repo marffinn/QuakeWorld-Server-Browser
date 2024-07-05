@@ -11,7 +11,15 @@ body {
    margin: 0;
    padding: 0;
    -webkit-app-region: drag;
+   background-color: darkgray;
 }
+.indPlayer p {
+   display: block;
+   float: left;
+   margin: 0;
+   width: 100%;
+}
+.indPlayer {display: block;clear: both;display: block;float: left;/* width: 100%; */}
 .modalPlayers {
    background-color: crimson;
    color: white;
@@ -26,16 +34,15 @@ body {
    display: block;
    position: absolute;
    background: #1b2424;
-   width: 200px;
+   width: 70%;
    z-index: 9999;
    top: 51px;
-   /* border-bottom: 1px solid #ccc; */
+   margin-left: 15%;
 }
 .serverPlayersContainer span {
    display: block;
    float: left;
    clear: both;
-   /* border-bottom: 1px solid #ccc; */
    font-size: .8em;
    background-color: yellowgreen;
 }
@@ -45,7 +52,7 @@ body {
    width: 100%;
    padding-left: 1%;
    padding: 10px 0;
-   background-color: bisque;
+   /* background-color: bisque; */
    position: fixed;
    z-index: 888;
 }
