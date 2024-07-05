@@ -74,7 +74,7 @@ let readServers = () => {
 let cardRender = () => {
   let rawdata = fs.readFileSync(`assets/cacheservers.json`);
   let serverList = JSON.parse(rawdata);
-  console.log(serverList);
+  // console.log(serverList);
 
   $(".appServerList").empty();
   $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
@@ -105,7 +105,8 @@ let cardRender = () => {
 let loadPlayers = (data) => {
   var digg = $("<div>", { class: "indPlayer" });
   for (let i in data) {
-    digg.append(`<p>${data[i].name}</p>`);
+    digg.append(`<p><span class="inPlayerName">${data[i].name}</span>
+                    <span class="inPlayerScore">${data[i].score}</span></p>`);
   }
   return digg[0];
 };
