@@ -105,8 +105,15 @@ let cardRender = () => {
 let loadPlayers = (data) => {
   var digg = $("<div>", { class: "indPlayer" });
   for (let i in data) {
-    digg.append(`<p><span class="inPlayerName">${data[i].name}</span>
-                    <span class="inPlayerScore">${data[i].score}</span></p>`);
+    switch (data[i].score) {
+      case -9999:
+        digg.append(`<p><span class="inPlayerName" style="background-color:red">${data[i].name}</span>
+        <span class="inPlayerScore" style="background-color:red">${data[i].score}</span></p>`);
+        break;
+      default:
+        digg.append(`<p><span class="inPlayerName">${data[i].name}</span>
+            <span class="inPlayerScore">${data[i].score}</span></p>`);
+    }
   }
   return digg[0];
 };

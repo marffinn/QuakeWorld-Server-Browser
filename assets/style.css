@@ -1,6 +1,6 @@
 @font-face {
-   font-family: 'squarefont';
-   src: url('./assets/fonts/Square.ttf') format(truetype);
+   font-family: 'easvhs';
+   src: url('fonts/easvhs.ttf') format(truetype);
 }
 
 root {
@@ -17,7 +17,7 @@ body {
    padding: 0;
    -webkit-app-region: drag;
    background-color: darkgray;
-   font-family: 'squarefont';
+   font-family: 'easvhs';
 }
 
 .indPlayer p {
@@ -25,7 +25,8 @@ body {
    float: left;
    margin: 0;
    width: 100%;
-   font-size: .8rem;
+   font-size: .7rem;
+   background-color: #282828;
 }
 .inPlayerName {
    display: block;
@@ -40,7 +41,7 @@ body {
    position: relative;
 }
 .indPlayer p:nth-child(even) {
-   background-color: tomato;
+   background-color: #2e2e2e;
 }
 
 .indPlayer {
@@ -60,15 +61,24 @@ body {
 
 .serverPlayers {
    display: block;
+   position: absolute;
+   width: 60px;
+   text-align: center;
+   background-color: #527817;
+   padding: 5px 0;
+   top: 0;
+   font-size: 0.8em;
+   left: -30px;
+   margin-left: 50%;
 }
 
 .serverPlayersContainer {
    display: block;
    position: absolute;
-   background: #1b2424;
+   /* background: #1b2424; */
    width: 70%;
    z-index: 9999;
-   top: 51px;
+   top: 30px;
    margin-left: 15%;
 }
 .bar-container {
@@ -119,11 +129,12 @@ body {
    margin: 1%;
    float: left;
    padding: 0px;
+   position: relative;
 }
 
 .server-card-bg {
    width: 100%;
-   height: 150px;
+   /* height: 150px; */
    position: relative;
 }
 
@@ -135,7 +146,7 @@ body {
 }
 
 .serverName {
-   background-color: #555;
+   background-color: #442121;
    font-size: 0.8rem;
    padding: 5px;
    height: 60px;
@@ -149,7 +160,8 @@ body {
    padding: 0px 10px;
    right: 0;
    height: 25px;
-   font-weight: 600;
+   line-height: 25px;
+   /* font-weight: 600; */
    border-radius: 0 0 0 3px;
 }
 
@@ -165,6 +177,7 @@ body {
    height: 25px;
    line-height: 25px;
    text-align: center;
+   text-transform: uppercase;
 }
 
 .progress_Bar {
