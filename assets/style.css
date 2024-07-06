@@ -18,6 +18,7 @@ body {
    -webkit-app-region: drag;
    background-color: darkgray;
    font-family: 'easvhs';
+   font-size: small;
 }
 
 .indPlayer p {
@@ -26,7 +27,7 @@ body {
    margin: 0;
    width: 100%;
    font-size: .7rem;
-   background-color: #282828;
+   background-color: #282828b5;
 }
 .inPlayerName {
    display: block;
@@ -41,7 +42,7 @@ body {
    position: relative;
 }
 .indPlayer p:nth-child(even) {
-   background-color: #2e2e2e;
+   background-color: #2e2e2e8c;
 }
 
 .indPlayer {
@@ -62,23 +63,29 @@ body {
 .serverPlayers {
    display: block;
    position: absolute;
-   width: 60px;
+   width: 40px;
    text-align: center;
-   background-color: #527817;
-   padding: 5px 0;
+   background-color: #527817b3;
+   /* padding: 2px 2px; */
    top: 0;
-   font-size: 0.8em;
-   left: -30px;
+   height: 20px;
+   /* font-size: 0.8em; */
+   left: -20px;
+   top: 5px;
+   line-height: 21px;
+   border-radius: 5px;
    margin-left: 50%;
+   border: 1px solid #0e280ed6;
 }
 
 .serverPlayersContainer {
    display: block;
-   position: absolute;
+   position: relative;
    /* background: #1b2424; */
    width: 70%;
    z-index: 9999;
-   top: 30px;
+   top: 5px;
+   height: auto;
    margin-left: 15%;
 }
 .bar-container {
@@ -124,32 +131,44 @@ body {
    background-color: crimson;
    color: white;
    min-height: 250px;
-   border-radius: 3px;
+   border-radius: 5px;
    overflow: hidden;
    margin: 1%;
    float: left;
    padding: 0px;
    position: relative;
+   height: auto;
 }
 
 .server-card-bg {
    width: 100%;
-   /* height: 150px; */
+   height: auto;
    position: relative;
+   font-size: small;
 }
 
 .server-card-bg img {
    width: 100%;
-   object-fit: fill;
+   object-fit: cover;
    min-height: 150px;
-   max-height: 150px;
+   height: 100%;
+   display: block;
+   background-color: aquamarine;
+   float: left;
 }
 
 .serverName {
    background-color: #442121;
-   font-size: 0.8rem;
-   padding: 5px;
-   height: 60px;
+   font-size: 10px;
+   /* padding: 5px; */
+   height: 29px;
+   width: auto;
+   display: block;
+   position: absolute;
+   float: left;
+   /* margin-left: 10%; */
+   top: 35px;
+   padding: 2px 6px;
 }
 
 .serverPing {
@@ -163,6 +182,7 @@ body {
    line-height: 25px;
    /* font-weight: 600; */
    border-radius: 0 0 0 3px;
+   /* font-size: small; */
 }
 
 .serverMap {
@@ -171,7 +191,7 @@ body {
    top: 0;
    left: 0;
    background-color: crimson;
-   font-size: .8rem;
+   /* font-size: small; */
    padding: 0 10px;
    border-radius: 0 0 3px;
    height: 25px;
@@ -204,7 +224,7 @@ body {
 }
 
 .progress_text {
-   font-size: 0.6rem;
+   /* font-size: 0.6rem; */
    text-align: center;
    display: block;
    width: 100%;

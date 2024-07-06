@@ -107,8 +107,8 @@ let loadPlayers = (data) => {
   for (let i in data) {
     switch (data[i].score) {
       case -9999:
-        digg.append(`<p><span class="inPlayerName" style="background-color:red">${data[i].name}</span>
-        <span class="inPlayerScore" style="background-color:red">${data[i].score}</span></p>`);
+        digg.append(`<p style="background-color:#ff000030"><span class="inPlayerName">${data[i].name}</span>
+        <span class="inPlayerScore">${data[i].score}</span></p>`);
         break;
       default:
         digg.append(`<p><span class="inPlayerName">${data[i].name}</span>
