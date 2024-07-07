@@ -29,6 +29,9 @@ body {
    font-size: .7rem;
    background-color: #282828b5;
 }
+.indPlayer p:last-child {
+   border-radius: 4px;
+ }
 .inPlayerName {
    display: block;
    width: auto;
@@ -48,8 +51,8 @@ body {
 .indPlayer {
    display: block;
    clear: both;
-   display: block;
    float: left;
+   width: 100%;
 }
 
 .modalPlayers {
@@ -66,13 +69,11 @@ body {
    width: 40px;
    text-align: center;
    background-color: #527817b3;
-   /* padding: 2px 2px; */
    top: 0;
-   height: 20px;
-   /* font-size: 0.8em; */
+   height: 17px;
    left: -20px;
    top: 5px;
-   line-height: 21px;
+   line-height: 20px;
    border-radius: 5px;
    margin-left: 50%;
    border: 1px solid #0e280ed6;
@@ -80,13 +81,13 @@ body {
 
 .serverPlayersContainer {
    display: block;
+   background: #1b2424;
+   width: 100%;
+   overflow: hidden;
+   height: 100%;
+   border-radius: 0px 0px 5px 5px;
+   float: left;
    position: relative;
-   /* background: #1b2424; */
-   width: 70%;
-   z-index: 9999;
-   top: 5px;
-   height: auto;
-   margin-left: 15%;
 }
 .bar-container {
    display: block;
@@ -119,32 +120,30 @@ body {
 
 .appServerList {
    display: block;
-   height: auto;
    float: left;
-   width: 100%;
-   margin-top: 60px;
+   padding-top: 40px;
 }
 
 .server-card {
-   width: 23%;
-   display: inline-table;
-   background-color: crimson;
    color: white;
-   min-height: 250px;
    border-radius: 5px;
    overflow: hidden;
-   margin: 1%;
-   float: left;
+   margin: 2%;
+   /* float: left; */
    padding: 0px;
    position: relative;
-   height: auto;
+   /* height: auto; */
+   /* padding-bottom: 15px; */
 }
 
 .server-card-bg {
    width: 100%;
-   height: auto;
-   position: relative;
+   height: 150px;
+   /* position: relative; */
    font-size: small;
+   display: block;
+   float: left;
+   background: blueviolet;
 }
 
 .server-card-bg img {
@@ -153,7 +152,7 @@ body {
    min-height: 150px;
    height: 100%;
    display: block;
-   background-color: aquamarine;
+   background-color: #340d0d;
    float: left;
 }
 
@@ -161,14 +160,14 @@ body {
    background-color: #442121;
    font-size: 10px;
    /* padding: 5px; */
-   height: 29px;
-   width: auto;
+   height: auto;
+   width: 100%;
    display: block;
    position: absolute;
    float: left;
-   /* margin-left: 10%; */
+   text-align: center;
    top: 35px;
-   padding: 2px 6px;
+   padding: 5px 0px;
 }
 
 .serverPing {
@@ -180,9 +179,7 @@ body {
    right: 0;
    height: 25px;
    line-height: 25px;
-   /* font-weight: 600; */
    border-radius: 0 0 0 3px;
-   /* font-size: small; */
 }
 
 .serverMap {
@@ -191,7 +188,6 @@ body {
    top: 0;
    left: 0;
    background-color: crimson;
-   /* font-size: small; */
    padding: 0 10px;
    border-radius: 0 0 3px;
    height: 25px;
@@ -224,7 +220,6 @@ body {
 }
 
 .progress_text {
-   /* font-size: 0.6rem; */
    text-align: center;
    display: block;
    width: 100%;

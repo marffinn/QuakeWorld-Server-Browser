@@ -89,10 +89,11 @@ let cardRender = () => {
             <img src="assets/mapshots/${serverList[s].map}.jpg" alt="${serverList[s].map}"/>
             <div class="serverPing">${serverList[s].ping}</div>
             <div class="serverMap">${serverList[s].map}</div>
-            <div class="serverPlayersContainer"></div>
+            <div class="serverName"> ${serverList[s].name} </div>
+            <div class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</div>
           </div>
-          <div class="serverName"> ${serverList[s].name} </div>
-          <div class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</div>
+          <div class="serverPlayersContainer"></div>
+          
         </div>`;
 
       $(".appServerList").append(oneServerPrepare);
@@ -107,7 +108,7 @@ let loadPlayers = (data) => {
   for (let i in data) {
     switch (data[i].score) {
       case -9999:
-        digg.append(`<p style="background-color:#ff000030"><span class="inPlayerName">${data[i].name}</span>
+        digg.append(`<p style="background-color:#22001cd6"><span class="inPlayerName">${data[i].name}</span>
         <span class="inPlayerScore">${data[i].score}</span></p>`);
         break;
       default:
@@ -164,3 +165,10 @@ $(".btn_refresh_servers").on("click", readServers);
 $(".btn_read_servers").on("click", cardRender);
 
 onAppLoad();
+
+$(function () {
+  $(".appServerList").masonryGrid({
+    columns: 3,
+    breakpoint: 500,
+  });
+});
