@@ -70,11 +70,10 @@ let readServers = () => {
     cardRender();
   });
 };
-
+let visibleServers = [];
 let cardRender = () => {
   let rawdata = fs.readFileSync(`assets/cacheservers.json`);
   let serverList = JSON.parse(rawdata);
-  // console.log(serverList);
 
   $(".appServerList").empty();
   $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
@@ -83,6 +82,9 @@ let cardRender = () => {
     if (serverList[s].numplayers === 0 || serverList[s].maxplayers >= 20)
       continue;
     else {
+      // table to store currently displayed servers, for a faster reload times
+      visibleServers.push(serverList[s].address);
+
       let oneServerPrepare = `
         <div class="server-card" href="${serverList[s].address}" serverList-name="${serverList[s].name}" id="${s}">
           <div class="server-card-bg">
@@ -101,6 +103,10 @@ let cardRender = () => {
       $("[id=" + s + "] .serverPlayersContainer").html(pl);
     }
   }
+  masonryReload();
+  for (let i in visibleServers) {
+    console.log(visibleServers[i]);
+  }
 };
 
 let loadPlayers = (data) => {
@@ -116,7 +122,8 @@ let loadPlayers = (data) => {
             <span class="inPlayerScore">${data[i].score}</span></p>`);
     }
   }
-  return digg[0];
+  digg = digg[0];
+  return digg;
 };
 
 let onAppLoad = () => {
@@ -155,7 +162,6 @@ $("body").on("click", ".server-card", function (e) {
       let sv_name = outInfo.name;
       let sv_address = outInfo.address;
       let sv_map = outInfo.map;
-      console.log(sv_name);
     }
   );
 });
@@ -164,11 +170,17 @@ $(".btn_update_masters").on("click", updateFromMaster);
 $(".btn_refresh_servers").on("click", readServers);
 $(".btn_read_servers").on("click", cardRender);
 
-onAppLoad();
-
-$(function () {
-  $(".appServerList").masonryGrid({
-    columns: 3,
-    breakpoint: 500,
+let masonryReload = () => {
+  $(function () {
+    $(".appServerList").masonryGrid({
+      columns: 3,
+      breakpoint: 500,
+    });
   });
+};
+
+$("body").on("resize", function () {
+  masonryReload();
 });
+
+onAppLoad();
