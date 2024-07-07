@@ -7,6 +7,7 @@ const { log } = require("console");
 
 const QSTAT_PATH = require("path").join(__dirname, "assets/qstat.exe");
 let progressBar = $(".progress_bar_percentage");
+let visibleServers = [];
 let addZero = (i) => {
   if (i < 10) {
     i = "0" + i;
@@ -70,10 +71,16 @@ let readServers = () => {
     cardRender();
   });
 };
-let visibleServers = [];
-let cardRender = () => {
-  let rawdata = fs.readFileSync(`assets/cacheservers.json`);
-  let serverList = JSON.parse(rawdata);
+
+let cardRender = (data) => {
+  let serverList = null;
+
+  if (data) {
+    serverList = JSON.parse(data);
+  } else {
+    let rawdata = fs.readFileSync(`assets/cacheservers.json`);
+    serverList = JSON.parse(rawdata);
+  }
 
   $(".appServerList").empty();
   $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
@@ -82,20 +89,18 @@ let cardRender = () => {
     if (serverList[s].numplayers === 0 || serverList[s].maxplayers >= 20)
       continue;
     else {
-      // table to store currently displayed servers, for a faster reload times
-      visibleServers.push(serverList[s].address);
+      visibleServers.push("qws " + serverList[s].address);
 
-      let oneServerPrepare = `
-        <div class="server-card" href="${serverList[s].address}" serverList-name="${serverList[s].name}" id="${s}">
+      let oneServerPrepare = `<div class="server-card" href="${serverList[s].address}" serverList-name="${serverList[s].name}" id="${s}">
           <div class="server-card-bg">
             <img src="assets/mapshots/${serverList[s].map}.jpg" alt="${serverList[s].map}"/>
             <div class="serverPing">${serverList[s].ping}</div>
             <div class="serverMap">${serverList[s].map}</div>
             <div class="serverName"> ${serverList[s].name} </div>
+            <div class="serverGameTime"> ${serverList[s].rules.status} </div>
             <div class="serverPlayers">${serverList[s].numplayers}/${serverList[s].maxplayers}</div>
           </div>
           <div class="serverPlayersContainer"></div>
-          
         </div>`;
 
       $(".appServerList").append(oneServerPrepare);
@@ -103,6 +108,7 @@ let cardRender = () => {
       $("[id=" + s + "] .serverPlayersContainer").html(pl);
     }
   }
+
   masonryReload();
   for (let i in visibleServers) {
     console.log(visibleServers[i]);
@@ -135,7 +141,7 @@ let compileServerList = () => {
     if (err) return console.log(err);
     let theJson = JSON.parse(data);
     for (let g in theJson) {
-      if (theJson[g].gametype != "qw") {
+      if (theJson[g].gametype != "qw" || theJson[g].ping >= 120) {
         continue;
       } else {
         fs.appendFileSync(
@@ -179,7 +185,7 @@ let masonryReload = () => {
   });
 };
 
-$("body").on("resize", function () {
+$("html").on("resize", function () {
   masonryReload();
 });
 
