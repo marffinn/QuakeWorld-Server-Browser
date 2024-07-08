@@ -30,7 +30,7 @@ body {
    background-color: #282828b5;
 }
 .indPlayer p:last-child {
-   border-radius: 4px;
+   border-radius: 0px 0px 5px 5px;
  }
 .inPlayerName {
    display: block;
@@ -96,7 +96,7 @@ body {
 
 .serverPlayersContainer {
    display: block;
-   background: #1b2424;
+   /* background: #1b2424; */
    width: 100%;
    overflow: hidden;
    height: 100%;
