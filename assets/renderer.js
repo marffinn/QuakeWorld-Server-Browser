@@ -8,12 +8,7 @@ const { log } = require("console");
 const QSTAT_PATH = require("path").join(__dirname, "assets/qstat.exe");
 let progressBar = $(".progress_bar_percentage");
 let visibleServers = [];
-let addZero = (i) => {
-  if (i < 10) {
-    i = "0" + i;
-  }
-  return i;
-};
+
 
 let updateFromMaster = () => {
   progressBar.show();
@@ -44,11 +39,28 @@ let updateFromMaster = () => {
     .on("close", () => {
       compileServerList();
       let d = new Date();
-      let h = addZero(d.getHours());
-      let m = addZero(d.getMinutes());
+      let h = d.getHours();
+      let m = d.getMinutes();
       let resultInfo = `Last refresh: ${h}:${m}`;
       $(".progress_text").html(resultInfo);
     });
+};
+let compileServerList = () => {
+  fs.readFile("./assets/servers.json", "utf8", function (err, data) {
+    if (err) return console.log(err);
+    let theJson = JSON.parse(data);
+    for (let g in theJson) {
+      if (theJson[g].gametype != "qw") {
+        continue;
+      } else {
+        fs.appendFileSync(
+          "./assets/hosts.txt",
+          "qws " + theJson[g].address + "\n",
+          "utf-8"
+        );
+      }
+    }
+  });
 };
 
 let readServers = () => {
@@ -57,7 +69,6 @@ let readServers = () => {
     "-f",
     "assets/hosts.txt",
     "-nh",
-    "-ne",
     "-R",
     "-P",
     "-u",
@@ -74,13 +85,8 @@ let readServers = () => {
 
 let cardRender = (data) => {
   let serverList = null;
-
-  if (data) {
-    serverList = JSON.parse(data);
-  } else {
-    let rawdata = fs.readFileSync(`assets/cacheservers.json`);
-    serverList = JSON.parse(rawdata);
-  }
+  let rawdata = fs.readFileSync(`assets/cacheservers.json`);
+  serverList = JSON.parse(rawdata);
 
   $(".appServerList").empty();
   $(".btn_refresh_servers").prop("disabled", false).removeClass("disabled");
@@ -108,11 +114,7 @@ let cardRender = (data) => {
       $("[id=" + s + "] .serverPlayersContainer").html(pl);
     }
   }
-
   masonryReload();
-  for (let i in visibleServers) {
-    console.log(visibleServers[i]);
-  }
 };
 
 let loadPlayers = (data) => {
@@ -136,23 +138,7 @@ let onAppLoad = () => {
   cardRender();
 };
 
-let compileServerList = () => {
-  fs.readFile("./assets/servers.json", "utf8", function (err, data) {
-    if (err) return console.log(err);
-    let theJson = JSON.parse(data);
-    for (let g in theJson) {
-      if (theJson[g].gametype != "qw" || theJson[g].ping >= 120) {
-        continue;
-      } else {
-        fs.appendFileSync(
-          "./assets/hosts.txt",
-          "qws " + theJson[g].address + "\n",
-          "utf-8"
-        );
-      }
-    }
-  });
-};
+
 
 $("body").on("click", ".server-card", function (e) {
   e.preventDefault();
